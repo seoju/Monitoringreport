@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-11T03:05:48+00:00",
+ "updated": "2026-11-11T21:58:03+00:00",
  "days": [
+  {
+   "date": "2026-11-12",
+   "count": 1,
+   "stars": {
+    "3": 0,
+    "2": 1,
+    "1": 0
+   },
+   "top3": [
+    "20261112-01"
+   ],
+   "note": "수집 기간 내 Tier 1 경쟁사의 신규 발표가 확인되지 않아 1건만 게재. 기간 직전 발표(BorgWarner 터보차저 3건 수주 11/9, 지엠비코리아-현대트랜시스 하이브리드 부품 계약 11/10, 영화테크-현대차 컨버터 계약 11/6)는 수집 기간 밖이라 제외.",
+   "pdf": "reports/2026-11-12.pdf"
+  },
   {
    "date": "2026-11-11",
    "count": 7,
@@ -19,6 +33,20 @@
   }
  ],
  "items": [
+  {
+   "id": "20261112-01",
+   "date": "2026-11-12",
+   "category": "전력변환",
+   "company": "Visteon-SHINRY (VSPE)",
+   "product": "OBC",
+   "event_type": "기술발표",
+   "importance": 2,
+   "title": "Visteon·SHINRY, Infineon과 GaN 단일단 OBC 공동개발",
+   "one_line": "22kW 3상·V2X 양방향 단일단 OBC, Infineon GaN 양방향 스위치 적용…벌크 커패시터 제거",
+   "source_name": "Semiconductor Today",
+   "source_url": "https://www.semiconductor-today.com/news_items/2026/nov/infineon-111126.shtml",
+   "published": "2026-11-11"
+  },
   {
    "id": "20261111-01",
    "date": "2026-11-11",
