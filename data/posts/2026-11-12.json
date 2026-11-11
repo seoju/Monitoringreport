@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T06:57:09+09:00",
+  "window": "2026-11-11 07:00 ~ 2026-11-12 07:00 (KST)",
+  "searched": "Tier 1 전체(10개사, 영·국문), 공통 키워드 5종(영·국문) — 목요일로 Tier 2·3 정기 검색 제외",
+  "top3": ["20261112-01"],
+  "note": "수집 기간 내 Tier 1 경쟁사의 신규 발표가 확인되지 않아 1건만 게재. 기간 직전 발표(BorgWarner 터보차저 3건 수주 11/9, 지엠비코리아-현대트랜시스 하이브리드 부품 계약 11/10, 영화테크-현대차 컨버터 계약 11/6)는 수집 기간 밖이라 제외.",
+  "items": [
+    {
+      "id": "20261112-01",
+      "category": "전력변환",
+      "company": "Visteon-SHINRY (VSPE)",
+      "product": "OBC",
+      "event_type": "기술발표",
+      "importance": 2,
+      "importance_reason": "단일단(single-stage) 구조·GaN 스위치 적용으로 OBC 크기·원가 구도 변화 가능",
+      "title": "Visteon·SHINRY, Infineon과 GaN 단일단 OBC 공동개발",
+      "one_line": "22kW 3상·V2X 양방향 단일단 OBC, Infineon GaN 양방향 스위치 적용…벌크 커패시터 제거",
+      "content": "Visteon·SHINRY 합작사(VSPE)가 electronica 2026(뮌헨)에서 Infineon과 GaN 기반 단일단 온보드차저(On-board charger, OBC) 공동개발 발표",
+      "background": "기존 OBC는 PFC·DC-DC 2단 구조로 벌크 커패시터 등 부피·원가 부담이 있어, 단일단 토폴로지로 전력밀도·원가 개선 추진",
+      "points": [
+        "사양: 3상 22kW·단상 19.2kW AC 충전, V2X(Vehicle-to-Everything) 양방향 충전 지원",
+        "구조: 단일단(single-stage) 설계로 기존 2단 OBC의 벌크 커패시터 제거, 변환 단계 통합으로 소형화",
+        {
+          "text": "역할 분담",
+          "sub": [
+            "VSPE(Visteon·SHINRY 합작): 컨버터 토폴로지, 제어 전략, 시스템 통합",
+            "Infineon: GaN 단일칩 양방향 스위치(Monolithic Bidirectional Switch, BDS) 공급"
+          ]
+        },
+        "SHINRY는 차량 신뢰성 기준 검증을 진행 중이라고 밝혔으며, 양산 시점·고객사는 미공개"
+      ],
+      "implication": "중국 OBC 강자(SHINRY)와 Tier 1(Visteon)이 GaN 단일단 OBC로 차세대 원가·전력밀도 경쟁에 나선 것으로, 개발 중인 OBC·ICCU의 토폴로지·전력반도체(GaN) 적용 로드맵 점검 필요.",
+      "check_needed": "양산 시점, 효율 수치, 적용 고객사는 원문에 없음",
+      "source": {
+        "name": "Semiconductor Today",
+        "url": "https://www.semiconductor-today.com/news_items/2026/nov/infineon-111126.shtml",
+        "published": "2026-11-11",
+        "original_title": "Visteon, SHINRY and Infineon collaborate on single-stage onboard charger with GaN BDS technology"
+      },
+      "extra_links": [
+        { "name": "Semiconductor For You", "url": "https://www.semiconductorforu.com/visteon-shinry-and-infineon-collaborate-on-breakthrough-single-stage-onboard-charger-with-gan-bds-technology/" }
+      ]
+    }
+  ]
+}
