@@ -84,8 +84,8 @@ def main():
         print("\n".join(text_lines))
         return
 
-    user = os.environ.get("GMAIL_USER", "").strip()
-    pw = os.environ.get("GMAIL_APP_PASSWORD", "").replace(" ", "").strip()
+    user = os.environ.get("GMAIL_USER", "").strip().strip('"\'<>').strip()
+    pw = "".join(os.environ.get("GMAIL_APP_PASSWORD", "").split()).strip('"\'')
     to = [a.strip() for a in os.environ.get("MAIL_TO", "").replace(";", ",").replace("\n", ",").split(",") if a.strip()]
     missing = [n for n, v in (("GMAIL_USER", user), ("GMAIL_APP_PASSWORD", pw), ("MAIL_TO", to)) if not v]
     if missing:
@@ -101,10 +101,31 @@ def main():
     msg.add_attachment(pdf.read_bytes(), maintype="application", subtype="pdf",
                        filename=f"Global Competitor Trend_{args.date.replace('-', '')}.pdf")
 
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60) as s:
-        s.login(user, pw)
-        s.send_message(msg)
-    print(f"메일 발송 완료: {len(to)}명")
+    # 비밀값은 출력하지 않고 형식만 점검
+    print(f"보내는 계정: ***@{user.split('@')[-1] if '@' in user else '(주소 형식 아님)'} / 앱 비밀번호 길이: {len(pw)}자"
+          f"{'' if len(pw) == 16 and pw.isalpha() else ' ← Gmail 앱 비밀번호는 영문 16자입니다. 값을 다시 확인하세요'} / 받는 사람: {len(to)}명")
+
+    errors = []
+    for mode in ("ssl465", "starttls587"):
+        try:
+            if mode == "ssl465":
+                s = smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60)
+            else:
+                s = smtplib.SMTP("smtp.gmail.com", 587, timeout=60)
+                s.ehlo(); s.starttls(); s.ehlo()
+            with s:
+                s.login(user, pw)
+                s.send_message(msg)
+            print(f"메일 발송 완료: {len(to)}명 ({mode})")
+            return
+        except smtplib.SMTPAuthenticationError as e:
+            sys.exit(f"Gmail 로그인 거부({e.smtp_code}): GMAIL_USER 주소와 앱 비밀번호가 맞는지, "
+                     "해당 계정에 2단계 인증이 켜져 있는지 확인하세요.\n" + e.smtp_error.decode(errors="ignore"))
+        except (smtplib.SMTPServerDisconnected, OSError) as e:
+            errors.append(f"{mode}: {e}")
+    sys.exit("Gmail 서버가 로그인 중 연결을 끊었습니다.\n" + "\n".join(errors) +
+             "\n→ 보내는 Gmail 받은편지함에 '보안 알림/로그인 차단' 메일이 있으면 '본인 맞음'으로 확인한 뒤 다시 실행하세요."
+             "\n→ 앱 비밀번호를 새로 만들어 GMAIL_APP_PASSWORD 를 덮어쓰기 해 보세요.")
 
 
 if __name__ == "__main__":
