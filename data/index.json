@@ -1,0 +1,121 @@
+{
+ "updated": "2026-11-11T03:03:26+00:00",
+ "days": [
+  {
+   "date": "2026-11-11",
+   "count": 7,
+   "stars": {
+    "3": 1,
+    "2": 5,
+    "1": 1
+   },
+   "top3": [
+    "20261111-01",
+    "20261111-02",
+    "20261111-03"
+   ],
+   "note": "시스템 첫 게시물입니다. 평소에는 직전 24시간(월요일은 72시간) 기사만 다룹니다.",
+   "pdf": "reports/2026-11-11.pdf"
+  }
+ ],
+ "items": [
+  {
+   "id": "20261111-01",
+   "date": "2026-11-11",
+   "category": "파워트레인",
+   "company": "Schaeffler",
+   "product": "EMS·내연기관 파워트레인",
+   "event_type": "구조조정",
+   "importance": 3,
+   "title": "Schaeffler, 유럽 내 추가 구조조정 추진",
+   "one_line": "유럽 3,460명 감축·5개 거점 폐쇄, Dortmund·Morbach 내연기관 파워트레인 공장 포함",
+   "source_name": "Schaeffler (EQS News)",
+   "source_url": "https://live.deutsche-boerse.com/news/EQS-News-Schaeffler-announces-further-performance-improvement--program-6c5286f9-0ab7-4fae-a0d8-ae4a1bff767a",
+   "published": "2026-11-03"
+  },
+  {
+   "id": "20261111-02",
+   "date": "2026-11-11",
+   "category": "파워트레인",
+   "company": "BorgWarner",
+   "product": "엔진제어기(ECM)",
+   "event_type": "수주·계약",
+   "importance": 2,
+   "title": "BorgWarner, 내연기관 픽업 플랫폼용 엔진제어기(ECM) 수주",
+   "one_line": "글로벌 OEM 픽업 플랫폼 ECM 대량 수주, 2029년 양산·2034년까지 공급",
+   "source_name": "Automotive World",
+   "source_url": "https://www.automotiveworld.com/news/borgwarner-wins-ecm-deal-for-combustion-pick-up-platform/",
+   "published": "2026-10-29"
+  },
+  {
+   "id": "20261111-03",
+   "date": "2026-11-11",
+   "category": "전력변환",
+   "company": "Hyundai Mobis",
+   "product": "전동화 부품",
+   "event_type": "실적",
+   "importance": 2,
+   "title": "현대모비스, 3분기 영업이익 9,141억 원…전동화 매출 증가",
+   "one_line": "매출 15조 7,233억 원(+4.6%)·영업이익 +17.2%, 유럽 전기차 물량 증가로 전동화 매출 확대",
+   "source_name": "바이라인네트워크",
+   "source_url": "https://byline.network/?p=9004111222625454",
+   "published": "2026-10-30"
+  },
+  {
+   "id": "20261111-04",
+   "date": "2026-11-11",
+   "category": "전력변환",
+   "company": "BorgWarner",
+   "product": "고전압 트랙션 인버터",
+   "event_type": "수주·계약",
+   "importance": 2,
+   "title": "BorgWarner, 차세대 고전압 인버터 수주",
+   "one_line": "글로벌 완성차 차세대 BEV용 트랙션 인버터 수주, 기존 공급 관계 연장",
+   "source_name": "Just Auto",
+   "source_url": "https://www.just-auto.com/newsletters/borgwarner-secures-high-voltage-inverter-business",
+   "published": "2026-11-04"
+  },
+  {
+   "id": "20261111-05",
+   "date": "2026-11-11",
+   "category": "전력변환",
+   "company": "LG Magna e-Powertrain",
+   "product": "e-모터·인버터·OBC",
+   "event_type": "공장·생산",
+   "importance": 2,
+   "title": "LG마그나, 헝가리 공장 2027년 2월 양산 목표",
+   "one_line": "첫 유럽 생산거점 헝가리 미슈콜츠 공장 2027년 2월 양산, 유럽 고객 대응",
+   "source_name": "MarkLines",
+   "source_url": "https://www.marklines.com/en/news/353234",
+   "published": "2026-10-30"
+  },
+  {
+   "id": "20261111-06",
+   "date": "2026-11-11",
+   "category": "시장·기타",
+   "company": "Bosch",
+   "product": "차량용 반도체",
+   "event_type": "구조조정",
+   "importance": 2,
+   "title": "Bosch, 반도체 부문 독립 사업부로 재편",
+   "one_line": "Mobility Electronics 산하 반도체를 별도 사업부로 격상, 2030년 반도체 매출 €5bn 목표",
+   "source_name": "Autocar Professional",
+   "source_url": "https://www.autocarpro.in/news/bosch-to-form-dedicated-semiconductor-division-targets-5-billion-sales-by-2030-135679",
+   "published": "2026-11-03"
+  },
+  {
+   "id": "20261111-07",
+   "date": "2026-11-11",
+   "category": "파워트레인",
+   "company": "Marelli",
+   "product": "ECU·파워트레인",
+   "event_type": "인사",
+   "importance": 1,
+   "title": "Marelli, Laurent Favre 신임 CEO 선임",
+   "one_line": "전 OPmobility CEO 선임, Chapter 11 졸업과 이후 구조개편 주도",
+   "source_name": "Autocar Professional",
+   "source_url": "https://www.autocarpro.in/news/marelli-names-laurent-favre-as-chief-executive-officer-135766",
+   "published": "2026-11-05"
+  }
+ ]
+}

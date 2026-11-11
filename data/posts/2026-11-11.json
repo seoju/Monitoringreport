@@ -1,0 +1,216 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T12:30:00+09:00",
+  "window": "2026-10-29 ~ 2026-11-11 (KST)",
+  "searched": "Tier 1 전체, Tier 2 (수요일), 공통 키워드 — 첫 수집이라 최근 2주 기사 대상",
+  "top3": ["20261111-01", "20261111-02", "20261111-03"],
+  "note": "시스템 첫 게시물입니다. 평소에는 직전 24시간(월요일은 72시간) 기사만 다룹니다.",
+  "items": [
+    {
+      "id": "20261111-01",
+      "category": "파워트레인",
+      "company": "Schaeffler",
+      "product": "EMS·내연기관 파워트레인",
+      "event_type": "구조조정",
+      "importance": 3,
+      "importance_reason": "Vitesco 통합 후 유럽 내연기관 파워트레인 생산거점 축소로 공급 구도 변화 가능",
+      "title": "Schaeffler, 유럽 내 추가 구조조정 추진",
+      "one_line": "유럽 3,460명 감축·5개 거점 폐쇄, Dortmund·Morbach 내연기관 파워트레인 공장 포함",
+      "content": "셰플러, 2024년 발표한 구조조정 완료 직후 유럽 내 추가 인력감축 및 거점 폐쇄를 담은 성과개선 프로그램 발표",
+      "background": "자동차 시장 침체·경쟁 심화, 내연기관(ICE) 수요 감소와 전동화 전환 지연, 독일 내 높은 인건비와 조직 복잡성",
+      "points": [
+        "인력감축: 유럽 16개 거점 순감 3,460명(독일 약 2,660명), 생산직 50%·R&D 30%·기타 20%",
+        { "text": "거점 폐쇄 5곳", "sub": ["Dortmund(약 430명)·Morbach(약 160명): Powertrain & Chassis 사업부, 내연기관 제품", "Berlin·Schwalbach(독일), Herstal(벨기에)"] },
+        "그 외 프랑스(Haguenau, Toulouse)·슬로바키아(Skalica, Kysuce) 등 생산·개발 역량 조정",
+        "일회성 비용 약 €480mil., 2030년부터 연간 약 €300mil. 수익 개선 목표 — 조치는 주로 '27~'28년 시행",
+        "경영진부터 전 직급에 한시적 자발적 보수 삭감(연대기여) 병행 검토"
+      ],
+      "table": {
+        "caption": "인력감축 개요",
+        "headers": ["구분", "내용"],
+        "rows": [
+          ["감축규모", "유럽 3,460명 (독일 약 2,660명)"],
+          ["감축대상", "생산직 50% / R&D 30% / 기타 20%"],
+          ["대상거점", "유럽 16개 거점"],
+          ["시행기간", "'27 ~ '28년 중심"]
+        ]
+      },
+      "implication": "유럽 내연기관 파워트레인(인젝터·EMS 등) 생산 축소로 현지 완성차의 공급선 재검토 가능성. 유럽 고객 대상 대체 공급 기회와 Schaeffler의 생산 이전처 점검 필요.",
+      "check_needed": "",
+      "source": {
+        "name": "Schaeffler (EQS News)",
+        "url": "https://live.deutsche-boerse.com/news/EQS-News-Schaeffler-announces-further-performance-improvement--program-6c5286f9-0ab7-4fae-a0d8-ae4a1bff767a",
+        "published": "2026-11-03",
+        "original_title": "Schaeffler announces further performance improvement program"
+      },
+      "extra_links": [
+        { "name": "Industrial Production: Schaeffler Cuts 3,460 Jobs in Europe", "url": "https://www.industrial-production.de/economy---business/q3-2026-financial-results--schaeffler-cuts-3-460-jobs-in-europe.htm" }
+      ]
+    },
+    {
+      "id": "20261111-02",
+      "category": "파워트레인",
+      "company": "BorgWarner",
+      "product": "엔진제어기(ECM)",
+      "event_type": "수주·계약",
+      "importance": 2,
+      "importance_reason": "현대케피코 주력 품목(ECU)과 동일 품목의 장기 대량 수주, GDi 500bar 대응",
+      "title": "BorgWarner, 내연기관 픽업 플랫폼용 엔진제어기(ECM) 수주",
+      "one_line": "글로벌 OEM 픽업 플랫폼 ECM 대량 수주, 2029년 양산·2034년까지 공급",
+      "content": "보그워너, 장기 거래 중인 글로벌 완성차의 내연기관 픽업트럭 플랫폼에 엔진제어기(Engine Control Module, ECM)를 공급하는 대량 계약 체결",
+      "background": "고객사에 2020년부터 여러 프로그램에 ECM을 공급해 온 기존 관계를 차기 플랫폼으로 연장",
+      "points": [
+        "양산 시점 2029년, 공급 기간 2034년까지 (고객사명 비공개)",
+        "해당 플랫폼 전용으로 개발: 기능 추가, 제어 유연성 향상, 소형화로 좁은 탑재 공간 대응",
+        "현재 시판 중인 인젝터 전반과 호환, GDi 500bar 압력 대응, 배기 후처리 제어 통합",
+        "같은 날 3분기 실적 발표: 매출 $3.49bn(전년비 -2.9%), 순이익 $221m, 2026년 매출 전망 $14.0~14.2bn"
+      ],
+      "implication": "북미 내연기관 대형차 수요가 2030년대까지 이어진다는 신호로, ECU 경쟁사의 장기 물량 확보가 진행 중. GDi 고압화·후처리 통합 제어 등 사양 경쟁 요소 벤치마킹 필요.",
+      "check_needed": "고객사·차종 비공개",
+      "source": {
+        "name": "Automotive World",
+        "url": "https://www.automotiveworld.com/news/borgwarner-wins-ecm-deal-for-combustion-pick-up-platform/",
+        "published": "2026-10-29",
+        "original_title": "BorgWarner wins ECM deal for combustion pick-up platform"
+      },
+      "extra_links": [
+        { "name": "Just Auto: BorgWarner ECM contract", "url": "https://www.just-auto.com/news/borgwarner-ecm-contract-pick-up-platform/" }
+      ]
+    },
+    {
+      "id": "20261111-03",
+      "category": "전력변환",
+      "company": "Hyundai Mobis",
+      "product": "전동화 부품",
+      "event_type": "실적",
+      "importance": 2,
+      "importance_reason": "현대차그룹 내 전력변환 경쟁자의 전동화 사업 실적·사업 확장 방향",
+      "title": "현대모비스, 3분기 영업이익 9,141억 원…전동화 매출 증가",
+      "one_line": "매출 15조 7,233억 원(+4.6%)·영업이익 +17.2%, 유럽 전기차 물량 증가로 전동화 매출 확대",
+      "content": "현대모비스, 3분기 실적 공시 및 컨퍼런스콜에서 전동화 매출 증가와 로보틱스 핵심부품 사업 확대 계획 발표",
+      "background": "유럽 중심 전기차 물량 증가에 따른 전동화 사업 매출 확대와 제품 믹스 개선",
+      "points": [
+        "3분기 매출 15조 7,233억 원(전년비 +4.6%), 영업이익 9,141억 원(+17.2%), 당기순이익 5,984억 원(-35.7%)",
+        "모듈·핵심부품 부문 2분기 연속 흑자",
+        "11월부터 의왕연구소에서 보스턴다이나믹스 휴머노이드 아틀라스용 액추에이터 시제품 생산, 2028년 공급 목표",
+        "로보틱스 핵심부품 조직 신설, 관련 인원 기존 대비 약 2배 확대 예정"
+      ],
+      "implication": "그룹 내 전동화 부품 물량이 모비스 중심으로 확대되는 추세. ICCU·HPCU 등 전력변환 품목의 그룹 내 역할 분담 동향 지속 확인 필요.",
+      "check_needed": "",
+      "source": {
+        "name": "바이라인네트워크",
+        "url": "https://byline.network/?p=9004111222625454",
+        "published": "2026-10-30",
+        "original_title": "현대모비스, 3분기 실적 발표… 영업이익 9141억원"
+      }
+    },
+    {
+      "id": "20261111-04",
+      "category": "전력변환",
+      "company": "BorgWarner",
+      "product": "고전압 트랙션 인버터",
+      "event_type": "수주·계약",
+      "importance": 2,
+      "importance_reason": "전력변환 경쟁사의 차세대 인버터 수주로 고객 기반 유지",
+      "title": "BorgWarner, 차세대 고전압 인버터 수주",
+      "one_line": "글로벌 완성차 차세대 BEV용 트랙션 인버터 수주, 기존 공급 관계 연장",
+      "content": "보그워너, 기존 인버터 공급 고객인 글로벌 완성차로부터 차세대 BEV 프로그램용 고전압 트랙션 인버터 수주",
+      "points": [
+        "최신 파워모듈 기술과 단순화된 설계 구조 적용, 콤팩트한 배치로 효율·원가경쟁력·패키징 유연성 향상",
+        "기존 공급사로서 고객의 모델 체인지 이후에도 공급 유지",
+        "같은 시기 터보차저·엔진제어·알루미늄 와이어 모터 수주도 함께 발표"
+      ],
+      "implication": "전력변환 품목에서 기존 공급사가 차세대 물량을 연속 수주하는 구조. 신규 진입 시 원가·패키징 경쟁력이 핵심 요소로 보임.",
+      "check_needed": "고객사·전압·SiC 적용 여부·양산 시점 미공개",
+      "source": {
+        "name": "Just Auto",
+        "url": "https://www.just-auto.com/newsletters/borgwarner-secures-high-voltage-inverter-business",
+        "published": "2026-11-04",
+        "original_title": "BorgWarner secures high-voltage inverter business"
+      },
+      "extra_links": [
+        { "name": "Automotive World", "url": "https://www.automotiveworld.com/news/borgwarner-keeps-inverter-supply-for-automakers-next-evs/" }
+      ]
+    },
+    {
+      "id": "20261111-05",
+      "category": "전력변환",
+      "company": "LG Magna e-Powertrain",
+      "product": "e-모터·인버터·OBC",
+      "event_type": "공장·생산",
+      "importance": 2,
+      "importance_reason": "국내 전력변환 경쟁사의 유럽 생산거점 가동 일정",
+      "title": "LG마그나, 헝가리 공장 2027년 2월 양산 목표",
+      "one_line": "첫 유럽 생산거점 헝가리 미슈콜츠 공장 2027년 2월 양산, 유럽 고객 대응",
+      "content": "LG전자, 자회사 LG마그나 이파워트레인의 헝가리 공장 양산을 2027년 2월 시작할 계획이라고 밝힘",
+      "background": "당초 2026년 생산 개시 계획 대비 일정 조정",
+      "points": [
+        "헝가리 미슈콜츠 공장: LG마그나의 첫 유럽 생산거점, 유럽 고객 대응 목적",
+        "e-모터 생산으로 시작해 인버터·온보드차저(OBC) 등으로 단계적 확대 계획(공장 발표 당시 기준)",
+        "멕시코 공장이 매출의 40% 이상 차지(2분기 컨퍼런스콜 기준)"
+      ],
+      "implication": "유럽 현지 생산 개시로 유럽 OEM 대상 인버터·OBC 수주 경쟁 강화 예상.",
+      "check_needed": "양산 품목·고객사 상세는 유료 기사로 확인 불가",
+      "source": {
+        "name": "MarkLines",
+        "url": "https://www.marklines.com/en/news/353234",
+        "published": "2026-10-30",
+        "original_title": "LG Magna e-Powertrain targets mass production at Hungary plant in February 2027"
+      }
+    },
+    {
+      "id": "20261111-06",
+      "category": "시장·기타",
+      "company": "Bosch",
+      "product": "차량용 반도체",
+      "event_type": "구조조정",
+      "importance": 2,
+      "importance_reason": "주요 경쟁사의 반도체 사업 분리로 제어기·전력전자 공급망 변화 가능",
+      "title": "Bosch, 반도체 부문 독립 사업부로 재편",
+      "one_line": "Mobility Electronics 산하 반도체를 별도 사업부로 격상, 2030년 반도체 매출 €5bn 목표",
+      "content": "보쉬, Mobility 사업 재편의 일환으로 반도체 사업을 독립 사업부(Semiconductors division)로 분리 추진",
+      "points": [
+        "현재 Mobility Electronics 사업부의 반도체 조직을 2028년 신설 사업부로 이관, 글로벌 반도체 사업 통합",
+        "Mobility Electronics에는 자동차 제어기(ECU)와 전력전자 사업이 남음",
+        "2030년 반도체 연매출 €5bn 목표, 자동차 외 로보틱스·AI 인프라로 시장 확대",
+        "10월에는 독일 Mobility 사업을 별도 법인(자회사)으로 분리하는 그룹 구조 개편도 발표"
+      ],
+      "implication": "보쉬 반도체가 외부 고객 판매를 확대할 경우 제어기용 반도체 조달선 다변화 기회가 될 수 있음. 보쉬 ECU·전력전자 사업 재편 추이 관찰 필요.",
+      "check_needed": "",
+      "source": {
+        "name": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/bosch-to-form-dedicated-semiconductor-division-targets-5-billion-sales-by-2030-135679",
+        "published": "2026-11-03",
+        "original_title": "Bosch to Form Dedicated Semiconductor Division, Targets €5 Billion Sales by 2030"
+      },
+      "extra_links": [
+        { "name": "Autocar Professional: Bosch to Split German Mobility Business", "url": "https://www.autocarpro.in/news/bosch-to-split-german-mobility-business-into-separate-company-quartz-135411" }
+      ]
+    },
+    {
+      "id": "20261111-07",
+      "category": "파워트레인",
+      "company": "Marelli",
+      "product": "ECU·파워트레인",
+      "event_type": "인사",
+      "importance": 1,
+      "importance_reason": "Chapter 11 진행 중인 경쟁사의 경영진 교체",
+      "title": "Marelli, Laurent Favre 신임 CEO 선임",
+      "one_line": "전 OPmobility CEO 선임, Chapter 11 졸업과 이후 구조개편 주도",
+      "content": "마렐리, Laurent Favre를 즉시 효력의 CEO로 선임하고 Chapter 11 졸업 작업 마무리 추진",
+      "points": [
+        "임시 CEO Fritz Henderson 후임, Favre는 ThyssenKrupp·ZF·Benteler 거쳐 Plastic Omnium(OPmobility) CEO 역임",
+        "채권단은 Chapter 11 졸업 시 전 Audi CEO Bram Schot을 이사회 의장으로 선임할 계획",
+        "졸업 후 재무 건전성 회복, 사업 전반 성과 개선, 고객 신뢰 강화를 목표로 제시"
+      ],
+      "implication": "마렐리 정상화 과정에서 일부 사업(ECU·인젝터 등) 매각·축소 가능성이 있어 동향 관찰 필요.",
+      "check_needed": "Chapter 11 졸업 시점 미공개",
+      "source": {
+        "name": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/marelli-names-laurent-favre-as-chief-executive-officer-135766",
+        "published": "2026-11-05",
+        "original_title": "Marelli Names Laurent Favre as Chief Executive Officer"
+      }
+    }
+  ]
+}

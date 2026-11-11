@@ -1,0 +1,101 @@
+{
+  "_comment": "모니터링 대상 기업과 검색어. 수정하면 다음 수집부터 바로 반영됩니다. days: daily=매일, 그 외 요일 약어(mon,tue,wed,thu,fri) 목록에 해당하는 날만 검색.",
+  "tiers": [
+    {
+      "tier": 1,
+      "label": "Tier 1 (핵심 경쟁사)",
+      "days": "daily",
+      "companies": [
+        { "name": "Bosch", "ko": "보쉬", "country": "독일", "categories": ["파워트레인", "전력변환"], "products": "인젝터, 고압펌프, ECU, 센서, CCU, 인버터, DC-DC",
+          "queries": { "en": ["Bosch Mobility", "Bosch injector OR \"fuel pump\" OR inverter OR charger"], "ko": ["보쉬 자동차 부품", "보쉬 모빌리티"] } },
+        { "name": "Schaeffler (Vitesco 포함)", "ko": "셰플러", "country": "독일", "categories": ["파워트레인", "전력변환"], "products": "인젝터, 펌프, EMS, HV 박스, SiC 인버터",
+          "queries": { "en": ["Schaeffler", "Vitesco Technologies"], "ko": ["셰플러", "섀플러"] } },
+        { "name": "Denso", "ko": "덴소", "country": "일본", "categories": ["파워트레인", "전력변환"], "products": "인젝터, 고압펌프, PCU, 센서",
+          "queries": { "en": ["Denso automotive", "Denso PCU OR inverter OR \"fuel injection\""], "ko": ["덴소 자동차"] } },
+        { "name": "PHINIA", "ko": "피니아", "country": "미국", "categories": ["파워트레인"], "products": "GDI 고압펌프, 인젝터",
+          "queries": { "en": ["PHINIA"], "ko": ["피니아"] } },
+        { "name": "Sensata", "ko": "센사타", "country": "미국", "categories": ["파워트레인", "전력변환"], "products": "압력·위치 센서",
+          "queries": { "en": ["Sensata Technologies"], "ko": ["센사타"] } },
+        { "name": "Hitachi Astemo", "ko": "히타치 아스테모", "country": "일본", "categories": ["파워트레인", "전력변환"], "products": "인젝터, ECU, PCU",
+          "queries": { "en": ["Hitachi Astemo"], "ko": ["히타치 아스테모"] } },
+        { "name": "Hyundai Mobis", "ko": "현대모비스", "country": "한국", "categories": ["전력변환"], "products": "ICCU, HPCU, e-Axle",
+          "queries": { "en": ["Hyundai Mobis electrification OR ICCU"], "ko": ["현대모비스 전동화", "현대모비스 ICCU OR 인버터 OR 수주"] } },
+        { "name": "BorgWarner", "ko": "보그워너", "country": "미국", "categories": ["전력변환", "파워트레인"], "products": "인버터, OBC+DC-DC 통합",
+          "queries": { "en": ["BorgWarner"], "ko": ["보그워너"] } },
+        { "name": "LG Magna e-Powertrain", "ko": "LG마그나", "country": "한국·미국", "categories": ["전력변환"], "products": "인버터, OBC, PDU",
+          "queries": { "en": ["LG Magna e-Powertrain"], "ko": ["LG마그나"] } },
+        { "name": "세종공업", "ko": "세종공업", "country": "한국", "categories": ["파워트레인"], "products": "파워트레인 부품",
+          "queries": { "en": ["Sejong Industrial"], "ko": ["세종공업"] } }
+      ]
+    },
+    {
+      "tier": 2,
+      "label": "Tier 2",
+      "days": ["mon", "wed", "fri"],
+      "companies": [
+        { "name": "Valeo", "ko": "발레오", "country": "프랑스", "categories": ["전력변환"], "products": "3-in-1 콤보, 전동 구동",
+          "queries": { "en": ["Valeo electrification OR charger OR inverter"], "ko": ["발레오"] } },
+        { "name": "Marelli", "ko": "마렐리", "country": "이탈리아", "categories": ["파워트레인", "전력변환"], "products": "GDI 인젝터, ECU, OBC",
+          "queries": { "en": ["Marelli automotive"], "ko": ["마렐리"] } },
+        { "name": "ZF", "ko": "ZF", "country": "독일", "categories": ["파워트레인", "전력변환"], "products": "TCU, 파워모듈",
+          "queries": { "en": ["ZF Friedrichshafen"], "ko": ["ZF 프리드리히스하펜"] } },
+        { "name": "NGK / Niterra", "ko": "니테라", "country": "일본", "categories": ["파워트레인"], "products": "산소·NOx·PM 센서",
+          "queries": { "en": ["Niterra OR \"NGK Spark Plug\" sensor"], "ko": ["니테라"] } },
+        { "name": "Delta Electronics", "ko": "델타일렉트로닉스", "country": "대만", "categories": ["전력변환"], "products": "OBC, DC-DC",
+          "queries": { "en": ["Delta Electronics EV OR \"onboard charger\""], "ko": [] } },
+        { "name": "SL", "ko": "에스엘", "country": "한국", "categories": ["전력변환"], "products": "BMS, 전력변환 모듈",
+          "queries": { "en": [], "ko": ["에스엘 자동차 OR 에스엘 전장"] } },
+        { "name": "경신", "ko": "경신", "country": "한국", "categories": ["전력변환"], "products": "전장 부품, 충전 관련",
+          "queries": { "en": [], "ko": ["경신 와이어링 OR 경신 전장"] } },
+        { "name": "유라", "ko": "유라코퍼레이션", "country": "한국", "categories": ["전력변환"], "products": "충전 인렛, HV 케이블, EVCC",
+          "queries": { "en": [], "ko": ["유라코퍼레이션"] } }
+      ]
+    },
+    {
+      "tier": 3,
+      "label": "Tier 3",
+      "days": ["fri"],
+      "companies": [
+        { "name": "Aisin / Jatco", "ko": "아이신", "country": "일본", "categories": ["파워트레인"], "products": "자동변속기",
+          "queries": { "en": ["Aisin transmission OR Jatco"], "ko": [] } },
+        { "name": "Stanadyne", "ko": "스탠다인", "country": "미국", "categories": ["파워트레인"], "products": "디젤 연료펌프",
+          "queries": { "en": ["Stanadyne"], "ko": [] } },
+        { "name": "UAES", "ko": "UAES", "country": "중국", "categories": ["파워트레인"], "products": "ECU, 센서 (Bosch 합작)",
+          "queries": { "en": ["UAES United Automotive Electronic Systems"], "ko": [] } },
+        { "name": "Weifu / Gaoke", "ko": "웨이푸", "country": "중국", "categories": ["파워트레인"], "products": "연료분사 부품, 센서",
+          "queries": { "en": ["Weifu High-Technology"], "ko": [] } },
+        { "name": "VMAX / Shinry", "ko": "VMAX", "country": "중국", "categories": ["전력변환"], "products": "OBC+DC-DC 콤보",
+          "queries": { "en": ["VMAX OBC OR Shinry DC-DC"], "ko": [] } },
+        { "name": "Inovance", "ko": "이노밴스", "country": "중국", "categories": ["전력변환"], "products": "인버터, 멀티인원 컨트롤러",
+          "queries": { "en": ["Inovance automotive"], "ko": [] } },
+        { "name": "Huawei Digital Power", "ko": "화웨이 디지털파워", "country": "중국", "categories": ["전력변환"], "products": "충전·전력변환 모듈",
+          "queries": { "en": ["Huawei Digital Power vehicle"], "ko": [] } },
+        { "name": "Kostal / Brusa / Webasto", "ko": "코스탈", "country": "독일", "categories": ["전력변환"], "products": "OBC, 충전 시스템",
+          "queries": { "en": ["Kostal charger OR Brusa OBC OR Webasto charging"], "ko": [] } },
+        { "name": "Melexis / Allegro / TE Connectivity", "ko": "", "country": "벨기에·미국", "categories": ["파워트레인"], "products": "센서 IC, 커넥터",
+          "queries": { "en": ["Melexis OR \"Allegro MicroSystems\" OR \"TE Connectivity\" automotive"], "ko": [] } },
+        { "name": "LG전자 VS사업본부", "ko": "LG전자 VS", "country": "한국", "categories": ["전력변환"], "products": "OBC, 전력변환",
+          "queries": { "en": [], "ko": ["LG전자 VS사업본부"] } },
+        { "name": "SoluM", "ko": "솔루엠", "country": "한국", "categories": ["전력변환"], "products": "전력모듈, LDC/OBC",
+          "queries": { "en": [], "ko": ["솔루엠 전장 OR 솔루엠 전력"] } }
+      ]
+    }
+  ],
+  "common_keywords": {
+    "_comment": "기업과 무관하게 매일 검색하는 공통 키워드",
+    "days": "daily",
+    "queries": [
+      { "purpose": "전력변환", "en": "ICCU OR HPCU OR \"onboard charger\" OR \"DC-DC converter\" automotive", "ko": "ICCU OR 온보드차저 OR 전력변환 자동차" },
+      { "purpose": "파워트레인", "en": "\"GDI injector\" OR \"high pressure fuel pump\" OR \"fuel injection\" supplier", "ko": "인젝터 OR 고압펌프 OR 연료분사" },
+      { "purpose": "센서", "en": "\"exhaust sensor\" OR \"pressure sensor\" automotive supplier", "ko": "자동차 센서 수주" },
+      { "purpose": "공급 계약", "en": "Hyundai Kia supplier contract powertrain OR electrification", "ko": "현대차 부품 수주 OR 공급계약 전동화" },
+      { "purpose": "시장 동향", "en": "hybrid powertrain demand OR \"800V\" SiC inverter", "ko": "하이브리드 부품 수요 OR 800V" }
+    ]
+  },
+  "sources": {
+    "_comment": "검색 결과에서 우선 신뢰할 매체. 기업 공식 보도자료를 가장 우선합니다.",
+    "official": ["기업 뉴스룸·보도자료 (Bosch, Denso, Schaeffler, BorgWarner, PHINIA 등)"],
+    "global": ["Automotive News", "Automotive World", "Electrive", "InsideEVs", "Reuters", "Nikkei", "Automobilwoche", "Gasgoo"],
+    "korea": ["오토타임즈", "오토헤럴드", "한국자동차신문", "전자신문", "연합뉴스", "한국경제", "매일경제"]
+  }
+}

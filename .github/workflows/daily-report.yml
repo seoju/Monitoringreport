@@ -1,0 +1,106 @@
+name: Daily report (PDF · 메일 · 게시판 배포)
+
+on:
+  # 1) 정기 발송: 평일 오전 08:10 (KST) = 전날 23:10 (UTC)
+  schedule:
+    - cron: "10 23 * * 0-4"
+  # 2) 수동 실행 버튼 (Actions 탭 → 이 워크플로 → Run workflow)
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "보낼 날짜 (YYYY-MM-DD). 비우면 가장 최근 데이터"
+        required: false
+        default: ""
+      send_mail:
+        description: "메일 발송"
+        type: boolean
+        default: true
+  # 3) 게시글이 올라오거나 사이트가 바뀌면 PDF·게시판만 갱신 (메일 없음)
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-report
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 한글 글꼴 · PDF 엔진 설치
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q fonts-noto-cjk
+          pip install -q playwright
+          python -m playwright install --with-deps chromium
+
+      - name: 데이터 검사
+        run: python scripts/build_index.py --check
+
+      - name: PDF 생성
+        id: pdf
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python scripts/make_pdf.py --require-today
+          elif [ -n "${{ github.event.inputs.date }}" ]; then
+            python scripts/make_pdf.py --date "${{ github.event.inputs.date }}"
+          else
+            python scripts/make_pdf.py
+          fi
+
+      - name: 게시판 목록 갱신
+        run: python scripts/build_index.py
+
+      - name: 변경 내용 저장
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/index.json reports/
+          if git diff --cached --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "report: ${{ steps.pdf.outputs.date }} PDF·목록 갱신"
+            for i in 1 2 3; do
+              git pull --rebase -q origin main && git push -q origin HEAD:main && break
+              sleep 5
+            done
+          fi
+
+      - name: 메일 발송
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.send_mail == 'true')
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: python scripts/send_mail.py --date "${{ steps.pdf.outputs.date }}"
+
+      - name: 게시판 파일 모으기
+        run: |
+          mkdir -p _site
+          cp -r index.html assets data reports .nojekyll _site/
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,16 @@
+{
+  "_comment": "게시판·PDF·메일에 들어가는 제목과 문구. 자유롭게 바꿔도 됩니다.",
+  "brand": "현대케피코 Daily",
+  "title": "Global Competitor Trend",
+  "board_title": "글로벌 경쟁사 뉴스 모니터링",
+  "site_url": "https://seoju.github.io/monitoringreport/",
+  "mail_from_name": "Global Competitor Trend",
+  "mail_subject": "[Global Competitor Trend] {date} 글로벌 경쟁사 일일 동향 ({count}건)",
+  "footer": "본 자료는 공개된 뉴스를 AI(Claude)가 검색·요약한 것입니다. 수치와 사실관계는 원문 링크로 확인 후 활용하시기 바랍니다.",
+  "categories": ["파워트레인", "전력변환", "시장·기타"],
+  "category_desc": {
+    "파워트레인": "인젝터·고압펌프·ECU·TCU·센서",
+    "전력변환": "ICCU·HPCU·OBC·DC-DC·인버터",
+    "시장·기타": "완성차·규제·시장 동향"
+  }
+}
