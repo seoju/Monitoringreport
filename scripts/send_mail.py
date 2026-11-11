@@ -112,7 +112,28 @@ def main():
     print(f"메일 서버: {host} / 보내는 계정: ***@{user.split('@')[-1] if '@' in user else '(주소 형식 아님)'}"
           f" / 비밀번호 길이: {len(pw)}자{hint} / 받는 사람: {len(to)}명")
 
+    # 네이버는 로그인 아이디만(@naver.com 제외) 받는 경우가 있어 둘 다 시도
+    logins = [user]
+    if "naver" in host and "@" in user:
+        logins.append(user.split("@")[0])
+
     errors = []
+    for login in logins:
+        try:
+            with smtplib.SMTP_SSL(host, 465, timeout=60) as s:
+                s.login(login, pw)
+                s.send_message(msg, from_addr=user)
+            print(f"메일 발송 완료: {len(to)}명 (로그인 형식: {'아이디만' if '@' not in login else '전체 주소'})")
+            return
+        except smtplib.SMTPAuthenticationError as e:
+            errors.append(f"{'아이디만' if '@' not in login else '전체 주소'} 로그인 거부 {e.smtp_code}: {e.smtp_error.decode(errors='ignore')}")
+        except (smtplib.SMTPServerDisconnected, OSError) as e:
+            errors.append(f"{login.split('@')[-1] if '@' in login else '아이디'}: {e}")
+            break
+    if errors and all("로그인 거부" in x for x in errors):
+        sys.exit("메일 서버가 로그인을 거부했습니다.\n" + "\n".join(errors) +
+                 "\n→ SMTP_USER·SMTP_PASSWORD 값, 네이버 'POP3/SMTP 사용' 설정, 2단계 인증 사용 시 애플리케이션 비밀번호 여부를 확인하세요.")
+
     for mode in ("ssl465", "starttls587"):
         try:
             if mode == "ssl465":
