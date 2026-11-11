@@ -80,6 +80,9 @@ jobs:
       - name: 메일 발송
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.send_mail == 'true')
         env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           MAIL_TO: ${{ secrets.MAIL_TO }}

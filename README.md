@@ -20,18 +20,19 @@
 ### 1) 게시판(GitHub Pages) 켜기
 Settings → Pages → **Source** 를 **GitHub Actions** 로 선택.
 
-### 2) 메일 설정 (Gmail 앱 비밀번호)
-1. Google 계정 → 보안 → **2단계 인증** 켜기
-2. https://myaccount.google.com/apppasswords 에서 앱 비밀번호(16자리) 생성
-3. 저장소 Settings → Secrets and variables → Actions → **New repository secret** 으로 3개 등록
+### 2) 메일 설정 (네이버 메일)
+1. 발송용 네이버 메일 → 환경설정 → **POP3/IMAP 설정** → **POP3/SMTP 사용: 사용함** → 저장
+2. 저장소 Settings → Secrets and variables → Actions → **New repository secret** 으로 4개 등록
 
 | 이름 | 값 |
 |---|---|
-| `GMAIL_USER` | 보내는 Gmail 주소 |
-| `GMAIL_APP_PASSWORD` | 위에서 만든 16자리 앱 비밀번호 |
+| `SMTP_HOST` | `smtp.naver.com` |
+| `SMTP_USER` | 보내는 네이버 주소 (예: abc@naver.com) |
+| `SMTP_PASSWORD` | 네이버 비밀번호 (2단계 인증을 켰다면 애플리케이션 비밀번호) |
 | `MAIL_TO` | 받는 사람 주소. 여러 명은 쉼표(,)로 구분 |
 
 받는 사람 주소는 Secrets에만 저장되므로 공개 저장소에 노출되지 않습니다. 메일은 받는 사람끼리 주소가 보이지 않게 숨은참조로 발송됩니다.
+Gmail을 쓰려면 `SMTP_HOST`를 `smtp.gmail.com`으로, `SMTP_PASSWORD`에 Gmail 앱 비밀번호(2단계 인증 필요)를 넣으면 됩니다.
 
 ## 자주 바꾸는 곳
 

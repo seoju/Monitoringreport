@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""요약 PDF를 첨부해 등록된 수신자에게 메일을 보낸다 (Gmail SMTP).
+"""요약 PDF를 첨부해 등록된 수신자에게 메일을 보낸다 (SMTP: 네이버·Gmail 등).
 
 필요한 환경변수 (GitHub 저장소 Settings → Secrets and variables → Actions 에 등록):
-  GMAIL_USER          보내는 Gmail 주소
-  GMAIL_APP_PASSWORD  Gmail 앱 비밀번호 (16자리)
-  MAIL_TO             받는 사람. 여러 명은 쉼표로 구분
+  SMTP_HOST      메일 서버. 네이버 smtp.naver.com / Gmail smtp.gmail.com (비우면 Gmail)
+  SMTP_USER      보내는 메일 주소 (예: abc@naver.com)
+  SMTP_PASSWORD  비밀번호 (네이버: 계정 비밀번호 또는 애플리케이션 비밀번호 / Gmail: 앱 비밀번호)
+  MAIL_TO        받는 사람. 여러 명은 쉼표로 구분
+  (예전 이름 GMAIL_USER, GMAIL_APP_PASSWORD 도 그대로 인식)
 
 사용법:
   python3 scripts/send_mail.py --date 2026-11-11
@@ -84,10 +86,14 @@ def main():
         print("\n".join(text_lines))
         return
 
-    user = os.environ.get("GMAIL_USER", "").strip().strip('"\'<>').strip()
-    pw = "".join(os.environ.get("GMAIL_APP_PASSWORD", "").split()).strip('"\'')
+    env = lambda *names: next((os.environ[n] for n in names if os.environ.get(n, "").strip()), "")
+    host = env("SMTP_HOST").strip() or "smtp.gmail.com"
+    user = env("SMTP_USER", "GMAIL_USER").strip().strip('"\'<>').strip()
+    pw = env("SMTP_PASSWORD", "GMAIL_APP_PASSWORD").strip().strip('"\'')
+    if "gmail" in host:
+        pw = "".join(pw.split())  # Gmail 앱 비밀번호의 띄어쓰기 제거
     to = [a.strip() for a in os.environ.get("MAIL_TO", "").replace(";", ",").replace("\n", ",").split(",") if a.strip()]
-    missing = [n for n, v in (("GMAIL_USER", user), ("GMAIL_APP_PASSWORD", pw), ("MAIL_TO", to)) if not v]
+    missing = [n for n, v in (("SMTP_USER", user), ("SMTP_PASSWORD", pw), ("MAIL_TO", to)) if not v]
     if missing:
         sys.exit("메일 설정이 없습니다. GitHub Secrets 에 다음 값을 등록하세요: " + ", ".join(missing))
 
@@ -102,16 +108,17 @@ def main():
                        filename=f"Global Competitor Trend_{args.date.replace('-', '')}.pdf")
 
     # 비밀값은 출력하지 않고 형식만 점검
-    print(f"보내는 계정: ***@{user.split('@')[-1] if '@' in user else '(주소 형식 아님)'} / 앱 비밀번호 길이: {len(pw)}자"
-          f"{'' if len(pw) == 16 and pw.isalpha() else ' ← Gmail 앱 비밀번호는 영문 16자입니다. 값을 다시 확인하세요'} / 받는 사람: {len(to)}명")
+    hint = " ← Gmail 앱 비밀번호는 영문 16자입니다" if "gmail" in host and not (len(pw) == 16 and pw.isalpha()) else ""
+    print(f"메일 서버: {host} / 보내는 계정: ***@{user.split('@')[-1] if '@' in user else '(주소 형식 아님)'}"
+          f" / 비밀번호 길이: {len(pw)}자{hint} / 받는 사람: {len(to)}명")
 
     errors = []
     for mode in ("ssl465", "starttls587"):
         try:
             if mode == "ssl465":
-                s = smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60)
+                s = smtplib.SMTP_SSL(host, 465, timeout=60)
             else:
-                s = smtplib.SMTP("smtp.gmail.com", 587, timeout=60)
+                s = smtplib.SMTP(host, 587, timeout=60)
                 s.ehlo(); s.starttls(); s.ehlo()
             with s:
                 s.login(user, pw)
@@ -119,13 +126,13 @@ def main():
             print(f"메일 발송 완료: {len(to)}명 ({mode})")
             return
         except smtplib.SMTPAuthenticationError as e:
-            sys.exit(f"Gmail 로그인 거부({e.smtp_code}): GMAIL_USER 주소와 앱 비밀번호가 맞는지, "
-                     "해당 계정에 2단계 인증이 켜져 있는지 확인하세요.\n" + e.smtp_error.decode(errors="ignore"))
+            sys.exit(f"메일 서버 로그인 거부({e.smtp_code}): SMTP_USER 주소와 SMTP_PASSWORD 가 맞는지 확인하세요. "
+                     "네이버는 메일 환경설정에서 'POP3/SMTP 사용'을 켜야 합니다.\n" + e.smtp_error.decode(errors="ignore"))
         except (smtplib.SMTPServerDisconnected, OSError) as e:
             errors.append(f"{mode}: {e}")
-    sys.exit("Gmail 서버가 로그인 중 연결을 끊었습니다.\n" + "\n".join(errors) +
-             "\n→ 보내는 Gmail 받은편지함에 '보안 알림/로그인 차단' 메일이 있으면 '본인 맞음'으로 확인한 뒤 다시 실행하세요."
-             "\n→ 앱 비밀번호를 새로 만들어 GMAIL_APP_PASSWORD 를 덮어쓰기 해 보세요.")
+    sys.exit(f"메일 서버({host})가 로그인 중 연결을 끊었습니다.\n" + "\n".join(errors) +
+             "\n→ 보내는 계정 메일함에 '보안 알림/로그인 차단' 메일이 있으면 '본인 맞음'으로 확인한 뒤 다시 실행하세요."
+             "\n→ 비밀번호를 새로 만들어 SMTP_PASSWORD 를 덮어쓰기 해 보세요.")
 
 
 if __name__ == "__main__":
