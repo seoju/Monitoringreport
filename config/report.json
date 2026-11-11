@@ -3,7 +3,7 @@
   "brand": "현대케피코 Daily",
   "title": "Global Competitor Trend",
   "board_title": "글로벌 경쟁사 뉴스 모니터링",
-  "site_url": "https://seoju.github.io/monitoringreport/",
+  "site_url": "https://seoju.github.io/Monitoringreport/",
   "mail_from_name": "Global Competitor Trend",
   "mail_subject": "[Global Competitor Trend] {date} 글로벌 경쟁사 일일 동향 ({count}건)",
   "footer": "본 자료는 공개된 뉴스를 AI(Claude)가 검색·요약한 것입니다. 수치와 사실관계는 원문 링크로 확인 후 활용하시기 바랍니다.",

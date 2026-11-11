@@ -2,7 +2,7 @@
 
 현대케피코 관점의 글로벌 경쟁사 뉴스를 매일 수집해 **게시판**에 올리고, **요약 PDF를 메일로 발송**하는 시스템입니다.
 
-- 게시판 주소: https://seoju.github.io/monitoringreport/
+- 게시판 주소: https://seoju.github.io/Monitoringreport/
 
 ## 동작 흐름
 
