@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T06:55:55+09:00",
+  "window": "2026-11-12 07:00 ~ 2026-11-13 07:00 (KST)",
+  "searched": "Tier 1 전체(10개사), Tier 2 전체(8개사), Tier 3 전체(11개사, 금요일), 공통 키워드 5종(영·국문)",
+  "top3": ["20261113-01", "20261113-02", "20261113-03"],
+  "note": "수집 기간 내 경쟁사의 관심 품목 신규 발표(수주·신제품·투자)는 확인되지 않아 4건만 게재. 배당 공시(BorgWarner·PHINIA), 기존 3분기 실적 재인용 기사(현대모비스), 기간 이전 발표(Bosch Abstatt 750명 감축 11/5, ZF 고회전 구동모터 11/6, Kostal 아일랜드 OBC 공장 파업 예고 11/5)는 제외.",
+  "items": [
+    {
+      "id": "20261113-01",
+      "category": "파워트레인",
+      "company": "Marelli",
+      "product": "ECU(엔진제어기)",
+      "event_type": "리콜·품질",
+      "importance": 2,
+      "importance_reason": "ECU 경쟁사의 엔진제어기 공급 차질로 완성차 라인 장기 중단, 고객 신뢰·공급 구도에 영향 가능",
+      "title": "Marelli, ECU 공급 차질로 Stellantis 생산 차질 장기화",
+      "one_line": "N3 GSE 엔진 ECU 부품 부족으로 Fiat 500 하이브리드 Mirafiori 공장 연내 2주만 가동",
+      "content": "Stellantis Mirafiori 공장이 N3 GSE 엔진 제어기(ECU)용 전자부품 부족으로 4주 연속 중단, 연내 2주만 가동 예정이며 공급사로 Marelli 지목",
+      "background": "N3 GSE 엔진은 Fiat 500 하이브리드(Mirafiori)와 Pandina(Pomigliano)에 공용 적용, Marelli의 납품 차질이 두 공장 모두에 영향",
+      "points": [
+        "11/9~13 중단으로 Mirafiori 차체 공장 4주 연속 가동 중단",
+        "연내 가동은 48·49주차(11/23~27, 11/30~12/4)만 예정, 이후 2027년까지 생산 재개 없음",
+        "Stellantis는 대체 방안 모색 중이며 공급 차질이 11~12월 지속될 수 있다고 언급",
+        "Mirafiori '26년 1~9월 생산 46,323대(전년比 +151.1%), 연간 생산은 5만 대 남짓·5.5만 대 미만 전망(Fim-Cisl 추정 약 6만 대, Stellantis 하이브리드 목표 10만 대)",
+        "노조(Fiom)는 500 하이브리드 수요 부진도 원인으로 지적"
+      ],
+      "table": {
+        "caption": "Mirafiori 생산 현황",
+        "headers": ["구분", "내용"],
+        "rows": [["'26년 1~9월 생산", "46,323대 (+151.1%)"], ["'26년 연간 전망", "5만 대 초과~5.5만 대 미만"], ["연내 잔여 가동", "48·49주차 2주"]]
+      },
+      "implication": "Chapter 11 절차 중인 Marelli의 ECU 공급 불안이 실제 완성차 생산 중단으로 이어진 사례. 유럽 OEM의 엔진제어기 공급선 다변화 수요 여부 점검 필요.",
+      "check_needed": "공급사가 Marelli라는 내용은 MF 취재원 기준이며 Marelli·Stellantis의 공식 확인은 없음. 최초 보도는 11/3~4, 이번 기사는 생산 일정 축소라는 후속 전개.",
+      "source": {
+        "name": "MF-Milano Finanza",
+        "url": "https://www.milanofinanza.it/news/stellantis-a-mirafiori-solo-altre-due-settimane-di-produzione-della-fiat-500-nel-2026-202611111709284468",
+        "published": "2026-11-12",
+        "original_title": "Stellantis, a Mirafiori solo altre due settimane di produzione della Fiat 500 nel 2026"
+      }
+    },
+    {
+      "id": "20261113-02",
+      "category": "시장·기타",
+      "company": "Kia",
+      "product": "완성차(ICE·EV)",
+      "event_type": "공장·생산",
+      "importance": 2,
+      "importance_reason": "현대차그룹 인도 생산능력 확대로 2030년 이후 파워트레인 제어부품 현지 수요 증가",
+      "title": "기아, 인도 제2공장 신설에 20억 달러 투자",
+      "one_line": "안드라프라데시 아난타푸르에 연 20만 대 공장, 2030년 초 가동·인도 생산능력 60만 대 수준",
+      "content": "기아, 인도 안드라프라데시 주정부와 MOU 체결, 협력사와 함께 20억 달러를 투자해 연 20만 대 규모 제2공장 신설 추진",
+      "background": "현대차그룹이 2032년까지 인도에 155억 달러를 투자하는 계획의 후속 조치",
+      "points": [
+        "투자 규모: 20억 달러(약 2조 6,702억 원), 기아 인도법인과 협력사 공동 투자",
+        "부지: 아난타푸르 465에이커(협력사 부지 포함)",
+        "생산능력: 연 20만 대 추가, 인도 생산능력 43만 대 → 63만 대",
+        "가동 시점: 2030년 초, 내연기관차·전기차 생산(하이브리드 언급 없음)",
+        "두 공장 누적 투자 약 50억 달러(1공장 약 29억 달러), 직·간접 고용 약 12,000명"
+      ],
+      "implication": "인도 현지 생산 확대로 ECU·인젝터 등 내연기관 제어부품 현지 공급 수요 증가 예상. 협력사 동반 투자 구조여서 현지 거점 대응 방안 검토 필요.",
+      "check_needed": "원화 환산액은 매체별로 상이(한국경제 약 2조 6,702억 원, 이투데이 약 2.9조 원).",
+      "source": {
+        "name": "Autocar India",
+        "url": "https://www.autocarindia.com/car-news/kia-to-establish-second-india-manufacturing-facility-in-andhra-pradesh-441316",
+        "published": "2026-11-12",
+        "original_title": "Kia to establish second India manufacturing facility in Andhra Pradesh"
+      },
+      "extra_links": [
+        { "name": "한국경제", "url": "https://www.hankyung.com/article/2026111236861" },
+        { "name": "이투데이", "url": "https://www.etoday.co.kr/news/view/2647595" }
+      ]
+    },
+    {
+      "id": "20261113-03",
+      "category": "전력변환",
+      "company": "Bosch",
+      "product": "e-Axle·구동모터",
+      "event_type": "M&A·투자",
+      "importance": 1,
+      "importance_reason": "기존 발표된 합작사의 법인 설립 절차 완료",
+      "title": "Bosch·Tata AutoComp, 인도 합작법인 설립 완료",
+      "one_line": "인도 합작사 'Puremotion Mobility' 11/11 법인 등록, Bosch 인도법인 공시",
+      "content": "Bosch 인도법인(Bosch Ltd), Tata AutoComp와의 합작법인 Puremotion Mobility Private Limited 설립을 공시",
+      "background": "양사는 2026년 3월 18일 합작 계약 체결",
+      "points": [
+        "법인 설립일: 2026년 11월 11일(Pune 등기소), 공시일 11월 12일(SEBI 규정 30조)",
+        "수권·납입 자본금 각 ₹10 lakh, 본사 Pune(TACO House)",
+        "이사 5명 선임, 비상장 법인"
+      ],
+      "implication": "Bosch가 인도에서 현지 대기업과 전동 구동 부품 생산 기반을 구축하는 단계. 인도 전동화 부품 시장 경쟁 구도 참고.",
+      "check_needed": "생산 품목(e-Axle·구동모터)과 지분 구조(50:50)는 3월 계약 당시 보도 기준이며, 이번 공시에는 기재되지 않음.",
+      "source": {
+        "name": "Autocar Professional",
+        "url": "https://www.autocarpro.in/news/bosch-tata-autocomp-jv-incorporates-puremotion-mobility-private-limited-135878",
+        "published": "2026-11-12",
+        "original_title": "Bosch, Tata AutoComp JV Incorporates Puremotion Mobility Private Limited"
+      }
+    },
+    {
+      "id": "20261113-04",
+      "category": "시장·기타",
+      "company": "Hyundai·Kia",
+      "product": "하이브리드",
+      "event_type": "시장·정책",
+      "importance": 1,
+      "importance_reason": "미국 하이브리드 판매 급증, 하이브리드 파워트레인 부품 수요 참고 지표",
+      "title": "현대차·기아, 미국서 하이브리드로 수익 방어",
+      "one_line": "기아 10월 美 하이브리드 27,409대(+105.6%), 현대차 하이브리드 비중 29%",
+      "content": "현대차·기아, 미국에서 하이브리드 판매 확대로 수익을 확보하고 EV는 가격 인하·인센티브로 점유율 확대 전략",
+      "points": [
+        "기아 10월 미국 하이브리드 판매 27,409대(전년比 +105.6%), EV 3,649대(+174.2%)",
+        "현대차 10월 미국 하이브리드 판매 +20%(10월 최대), 판매 비중 29%, 1~10월 누적 +50%",
+        "기아 인센티브: EV 최대 $12,000, 하이브리드 $2,000, 내연기관 $1,800 / 아이오닉5 '26년형 최대 $9,800 인하",
+        "2030년까지 북미 생산능력 연 50만 대 확대, 현지 부품 조달률 60% → 80% 상향 계획"
+      ],
+      "implication": "미국 내 하이브리드 판매 증가로 HPCU·고압 인젝터 등 하이브리드용 부품 수요 확대 지속. 현지 조달률 80% 상향 계획에 따른 북미 생산 대응 검토 필요.",
+      "check_needed": "10월 판매 실적을 바탕으로 한 분석 기사로, 현지 조달률 상향 계획의 최초 발표 시점은 확인 필요.",
+      "source": {
+        "name": "매일일보",
+        "url": "https://www.m-i.kr/news/articleView.html?idxno=2017777",
+        "published": "2026-11-12",
+        "original_title": "HEV로 수익 지키고 EV는 점유율 확대…현대차·기아, 美 판매 승부"
+      }
+    }
+  ]
+}
