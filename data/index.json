@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-12T07:35:17+00:00",
+ "updated": "2026-11-12T21:56:40+00:00",
  "days": [
+  {
+   "date": "2026-11-13",
+   "count": 4,
+   "stars": {
+    "3": 0,
+    "2": 2,
+    "1": 2
+   },
+   "top3": [
+    "20261113-01",
+    "20261113-02",
+    "20261113-03"
+   ],
+   "note": "수집 기간 내 경쟁사의 관심 품목 신규 발표(수주·신제품·투자)는 확인되지 않아 4건만 게재. 배당 공시(BorgWarner·PHINIA), 기존 3분기 실적 재인용 기사(현대모비스), 기간 이전 발표(Bosch Abstatt 750명 감축 11/5, ZF 고회전 구동모터 11/6, Kostal 아일랜드 OBC 공장 파업 예고 11/5)는 제외.",
+   "pdf": "reports/2026-11-13.pdf"
+  },
   {
    "date": "2026-11-12",
    "count": 1,
@@ -33,6 +49,62 @@
   }
  ],
  "items": [
+  {
+   "id": "20261113-01",
+   "date": "2026-11-13",
+   "category": "파워트레인",
+   "company": "Marelli",
+   "product": "ECU(엔진제어기)",
+   "event_type": "리콜·품질",
+   "importance": 2,
+   "title": "Marelli, ECU 공급 차질로 Stellantis 생산 차질 장기화",
+   "one_line": "N3 GSE 엔진 ECU 부품 부족으로 Fiat 500 하이브리드 Mirafiori 공장 연내 2주만 가동",
+   "source_name": "MF-Milano Finanza",
+   "source_url": "https://www.milanofinanza.it/news/stellantis-a-mirafiori-solo-altre-due-settimane-di-produzione-della-fiat-500-nel-2026-202611111709284468",
+   "published": "2026-11-12"
+  },
+  {
+   "id": "20261113-02",
+   "date": "2026-11-13",
+   "category": "시장·기타",
+   "company": "Kia",
+   "product": "완성차(ICE·EV)",
+   "event_type": "공장·생산",
+   "importance": 2,
+   "title": "기아, 인도 제2공장 신설에 20억 달러 투자",
+   "one_line": "안드라프라데시 아난타푸르에 연 20만 대 공장, 2030년 초 가동·인도 생산능력 60만 대 수준",
+   "source_name": "Autocar India",
+   "source_url": "https://www.autocarindia.com/car-news/kia-to-establish-second-india-manufacturing-facility-in-andhra-pradesh-441316",
+   "published": "2026-11-12"
+  },
+  {
+   "id": "20261113-03",
+   "date": "2026-11-13",
+   "category": "전력변환",
+   "company": "Bosch",
+   "product": "e-Axle·구동모터",
+   "event_type": "M&A·투자",
+   "importance": 1,
+   "title": "Bosch·Tata AutoComp, 인도 합작법인 설립 완료",
+   "one_line": "인도 합작사 'Puremotion Mobility' 11/11 법인 등록, Bosch 인도법인 공시",
+   "source_name": "Autocar Professional",
+   "source_url": "https://www.autocarpro.in/news/bosch-tata-autocomp-jv-incorporates-puremotion-mobility-private-limited-135878",
+   "published": "2026-11-12"
+  },
+  {
+   "id": "20261113-04",
+   "date": "2026-11-13",
+   "category": "시장·기타",
+   "company": "Hyundai·Kia",
+   "product": "하이브리드",
+   "event_type": "시장·정책",
+   "importance": 1,
+   "title": "현대차·기아, 미국서 하이브리드로 수익 방어",
+   "one_line": "기아 10월 美 하이브리드 27,409대(+105.6%), 현대차 하이브리드 비중 29%",
+   "source_name": "매일일보",
+   "source_url": "https://www.m-i.kr/news/articleView.html?idxno=2017777",
+   "published": "2026-11-12"
+  },
   {
    "id": "20261112-01",
    "date": "2026-11-12",
