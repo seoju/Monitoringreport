@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T06:51:00+09:00",
+  "window": "2026-11-16 07:00 ~ 2026-11-17 07:00 (KST)",
+  "searched": "Tier 1 전체(10개사, 영·국문), 공통 키워드 5종(영·국문) — 화요일로 Tier 2·3 정기 검색 제외",
+  "top3": ["20261117-01"],
+  "note": "수집 기간 내 경쟁사의 관심 품목(인젝터·HPP·ECU·센서·전력변환) 신규 발표는 확인되지 않아 1건만 게재. 제외: Visteon·SHINRY·Infineon 단일단 OBC(electrive 11/16 보도, 11/12 게시 건과 동일 사건), 미국 하이브리드 점유율 확대 AFP 기사(최초 게재 11/15로 기간 경계, Cox 수치도 2분기 기준 기존 데이터), 한국경제 '매출 1,000억 자동차부품사 매물'(기업명·품목 비공개), Bosch Abstatt 감원·BorgWarner 터보차저 수주 등 기간 이전 발표.",
+  "items": [
+    {
+      "id": "20261117-01",
+      "category": "시장·기타",
+      "company": "Denso",
+      "product": "차량용 소프트웨어(SDV)",
+      "event_type": "M&A·투자",
+      "importance": 1,
+      "importance_reason": "Denso의 차량용 소프트웨어 개발 역량 보강을 위한 소규모 지분 투자로 참고 정보",
+      "title": "Denso, 도요타통상 차량용 SW 신설법인에 20% 출자",
+      "one_line": "도요타통상 SW 자회사 'Toyota Tsusho Definex'에 Denso 20% 출자 예정, '27년 1월 사업 개시",
+      "content": "도요타통상과 Denso, SDV 시대 대응을 위해 도요타통상이 분사한 차량용 소프트웨어 신설법인에 Denso가 출자하는 협업 발표",
+      "background": "도요타통상 자회사 NEXTY Electronics가 20년 이상 운영한 차량용 소프트웨어 사업을 분사해 의사결정 속도와 경영자원 집중도를 높이려는 목적",
+      "points": [
+        "신설법인: Toyota Tsusho Definex(나고야), '26년 9월 설립, '27년 1월 사업 개시 예정",
+        "지분: 도요타통상 80%, Denso 20%(제3자 배정 증자로 취득 예정)",
+        "자본금 495백만 엔(예정)",
+        { "text": "사업 범위", "sub": ["차량용 소프트웨어 수탁 개발, 개발 툴 판매", "소프트웨어 배포 플랫폼 'moderix' 개발·제공, 표준화 활동"] },
+        "Denso의 양산·품질 노하우와 도요타통상의 개발·사업기획 역량을 결합해 AI 기반 개발 중심의 'Engineering Service Provider' 지향"
+      ],
+      "table": {
+        "caption": "신설법인 개요",
+        "headers": ["구분", "내용"],
+        "rows": [
+          ["회사명", "Toyota Tsusho Definex Corporation"],
+          ["설립 / 사업 개시", "'26년 9월 / '27년 1월(예정)"],
+          ["지분 구조", "도요타통상 80%, Denso 20%(예정)"],
+          ["자본금", "495백만 엔(예정)"]
+        ]
+      },
+      "implication": "도요타그룹 내 Denso의 차량용 소프트웨어 개발 인력·툴 체인 확보 움직임으로, 제어기(ECU) 소프트웨어 경쟁력 강화로 이어질지 지켜볼 필요.",
+      "check_needed": "보도자료에 신설법인 인력 규모와 Denso 출자 시점은 명시되지 않음 (사업 개시 이후 출자 예정으로만 기재).",
+      "source": {
+        "name": "DENSO 보도자료 (MarketScreener 게재)",
+        "url": "https://www.marketscreener.com/news/denso-toyota-tsusho-and-denso-collaborate-to-strengthen-in-vehicle-software-business-ce785ededf8cf227",
+        "published": "2026-11-16",
+        "original_title": "Toyota Tsusho and DENSO Collaborate to Strengthen In-Vehicle Software Business"
+      },
+      "extra_links": [
+        { "name": "projectdesign (日)", "url": "https://www.projectdesign.jp/articles/news/7b73f444-a38d-4627-9bf1-bc91bb1c3a9e" },
+        { "name": "北海道新聞 (共同通信)", "url": "https://www.hokkaido-np.co.jp/article/1409154/" }
+      ]
+    }
+  ]
+}
