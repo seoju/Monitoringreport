@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-16T02:41:58+00:00",
+ "updated": "2026-11-16T21:52:06+00:00",
  "days": [
+  {
+   "date": "2026-11-17",
+   "count": 1,
+   "stars": {
+    "3": 0,
+    "2": 0,
+    "1": 1
+   },
+   "top3": [
+    "20261117-01"
+   ],
+   "note": "수집 기간 내 경쟁사의 관심 품목(인젝터·HPP·ECU·센서·전력변환) 신규 발표는 확인되지 않아 1건만 게재. 제외: Visteon·SHINRY·Infineon 단일단 OBC(electrive 11/16 보도, 11/12 게시 건과 동일 사건), 미국 하이브리드 점유율 확대 AFP 기사(최초 게재 11/15로 기간 경계, Cox 수치도 2분기 기준 기존 데이터), 한국경제 '매출 1,000억 자동차부품사 매물'(기업명·품목 비공개), Bosch Abstatt 감원·BorgWarner 터보차저 수주 등 기간 이전 발표.",
+   "pdf": "reports/2026-11-17.pdf"
+  },
   {
    "date": "2026-11-16",
    "count": 0,
@@ -61,6 +75,20 @@
   }
  ],
  "items": [
+  {
+   "id": "20261117-01",
+   "date": "2026-11-17",
+   "category": "시장·기타",
+   "company": "Denso",
+   "product": "차량용 소프트웨어(SDV)",
+   "event_type": "M&A·투자",
+   "importance": 1,
+   "title": "Denso, 도요타통상 차량용 SW 신설법인에 20% 출자",
+   "one_line": "도요타통상 SW 자회사 'Toyota Tsusho Definex'에 Denso 20% 출자 예정, '27년 1월 사업 개시",
+   "source_name": "DENSO 보도자료 (MarketScreener 게재)",
+   "source_url": "https://www.marketscreener.com/news/denso-toyota-tsusho-and-denso-collaborate-to-strengthen-in-vehicle-software-business-ce785ededf8cf227",
+   "published": "2026-11-16"
+  },
   {
    "id": "20261113-01",
    "date": "2026-11-13",
