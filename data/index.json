@@ -1,6 +1,21 @@
 {
- "updated": "2026-11-17T05:03:24+00:00",
+ "updated": "2026-11-17T21:59:40+00:00",
  "days": [
+  {
+   "date": "2026-11-18",
+   "count": 2,
+   "stars": {
+    "3": 0,
+    "2": 0,
+    "1": 2
+   },
+   "top3": [
+    "20261118-01",
+    "20261118-02"
+   ],
+   "note": "수집 기간 내 경쟁사의 관심 품목 신규 수주·신제품·투자 발표는 확인되지 않아 2건만 게재. 제외: BorgWarner 픽업 ECM 수주 국내 보도(글로벌이코노믹·오토모닝 11/17, 11/11 게시 건과 동일 사건), BorgWarner 알루미늄 권선 하이브리드 모터 첫 수주(11/14 보도, 기간 밖·관심 품목 외), SJG세종(세종공업) 3분기 실적(11/16 14시 공시, 기간 밖), 계양전기 현대차 시트 모터 공급사 선정(관심 품목 무관), 현대모비스 램프 사업 국가핵심기술 판정 신청(관심 품목 무관), Toyota C-HR+ EV-ECU 소프트웨어 리콜(공급사 미공개), ZF 풍력 기어박스 사업 매각 준비(자동차 부품 무관).",
+   "pdf": "reports/2026-11-18.pdf"
+  },
   {
    "date": "2026-11-17",
    "count": 1,
@@ -75,6 +90,34 @@
   }
  ],
  "items": [
+  {
+   "id": "20261118-01",
+   "date": "2026-11-18",
+   "category": "파워트레인",
+   "company": "PHINIA",
+   "product": "인젝터(GDi·수소·에탄올)",
+   "event_type": "실적",
+   "importance": 1,
+   "title": "PHINIA, 연료분사 경쟁사 이탈 속 다연료 인젝터 전략 강조",
+   "one_line": "Stephens 투자자 행사서 Conti·Marelli·Vitesco 연료분사 이탈 언급, GDi 라인 전환해 수소 인젝터 양산",
+   "source_name": "Investing.com",
+   "source_url": "https://www.investing.com/news/transcripts/phinia-at-2026-stephens-annual-investment-conference-diversification-push-93CH-5033790",
+   "published": "2026-11-17"
+  },
+  {
+   "id": "20261118-02",
+   "date": "2026-11-18",
+   "category": "파워트레인",
+   "company": "Schaeffler",
+   "product": "EMS·인젝터",
+   "event_type": "구조조정",
+   "importance": 1,
+   "title": "Schaeffler, 임금 반납안 두고 노조와 갈등",
+   "one_line": "약 €100mil. 규모 2년 임금 반납으로 추가 1,000명 감축 회피 추진, IG Metall은 '미래 구상' 요구",
+   "source_name": "Handelsblatt",
+   "source_url": "https://www.handelsblatt.com/unternehmen/industrie/industrie-streit-ueber-gehaltsverzicht-beim-zulieferer-schaeffler/100268764.html",
+   "published": "2026-11-17"
+  },
   {
    "id": "20261117-01",
    "date": "2026-11-17",
