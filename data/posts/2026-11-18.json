@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T07:00:00+09:00",
+  "window": "2026-11-17 07:00 ~ 2026-11-18 07:00 (KST)",
+  "searched": "Tier 1 전체(10개사, 영·국문), Tier 2 전체(8개사, 수요일), 공통 키워드 5종(영·국문)",
+  "top3": ["20261118-01", "20261118-02"],
+  "note": "수집 기간 내 경쟁사의 관심 품목 신규 수주·신제품·투자 발표는 확인되지 않아 2건만 게재. 제외: BorgWarner 픽업 ECM 수주 국내 보도(글로벌이코노믹·오토모닝 11/17, 11/11 게시 건과 동일 사건), BorgWarner 알루미늄 권선 하이브리드 모터 첫 수주(11/14 보도, 기간 밖·관심 품목 외), SJG세종(세종공업) 3분기 실적(11/16 14시 공시, 기간 밖), 계양전기 현대차 시트 모터 공급사 선정(관심 품목 무관), 현대모비스 램프 사업 국가핵심기술 판정 신청(관심 품목 무관), Toyota C-HR+ EV-ECU 소프트웨어 리콜(공급사 미공개), ZF 풍력 기어박스 사업 매각 준비(자동차 부품 무관).",
+  "items": [
+    {
+      "id": "20261118-01",
+      "category": "파워트레인",
+      "company": "PHINIA",
+      "product": "인젝터(GDi·수소·에탄올)",
+      "event_type": "실적",
+      "importance": 1,
+      "importance_reason": "연료분사 경쟁사 이탈에 대한 경영진 언급과 다연료 인젝터 전략으로 참고 정보",
+      "title": "PHINIA, 연료분사 경쟁사 이탈 속 다연료 인젝터 전략 강조",
+      "one_line": "Stephens 투자자 행사서 Conti·Marelli·Vitesco 연료분사 이탈 언급, GDi 라인 전환해 수소 인젝터 양산",
+      "content": "피니아 CEO, 미국 Stephens 투자자 컨퍼런스에서 연료분사 사업의 경쟁 구도와 다연료 대응·애프터마켓 확대 전략을 설명",
+      "background": "내연기관 수요 둔화로 일부 대형 공급사가 연료분사 사업에서 빠지는 가운데, 기존 설비를 대체연료용으로 전환해 활용하는 전략",
+      "points": [
+        "경쟁 구도: Continental·Marelli·Vitesco가 연료분사 사업에서 이탈 중이라고 언급 (Brady Ericson CEO)",
+        { "text": "다연료 인젝터", "sub": ["가솔린 직분사(GDi) 여유 라인을 전환해 수소 인젝터를 고객사 1곳에 양산 공급", "브라질에서 에탄올 100%용 가열식 팁(heated tip) 인젝터 출시 (유럽의 기존 PFI 라인 이전)", "천연가스 차량 수주 대응으로 생산라인을 중국에서 인도로 이전 중"] },
+        "올해 EPS 전망: 연초 약 $5 → $6 이상 (상향분의 약 절반은 stoba 인수 효과, 진행자 언급)",
+        "매출 구성: 애프터마켓 약 36%(약 $1.4bn), 승용차 약 25%; 애프터마켓 비중 향후 40% 이상 목표",
+        "stoba 인수: EBITDA 약 6배, 매출 약 €80mil. 추가, 항공우주·방산 인증 거점 2곳 확보"
+      ],
+      "implication": "연료분사 공급사 축소로 GDi 인젝터 시장이 Bosch·Denso·PHINIA 중심으로 재편될 가능성. 기존 GDi 설비의 수소·에탄올 인젝터 전환 사례는 인젝터 라인 활용 전략 수립 시 참고 필요.",
+      "check_needed": "컨퍼런스 대화록 기반 기사로 회사 공식 보도자료는 없음. 'Conti·Marelli·Vitesco 이탈'은 CEO 발언으로, 각 사의 사업 철수 여부·시점은 별도 확인 필요.",
+      "source": {
+        "name": "Investing.com",
+        "url": "https://www.investing.com/news/transcripts/phinia-at-2026-stephens-annual-investment-conference-diversification-push-93CH-5033790",
+        "published": "2026-11-17",
+        "original_title": "PHINIA at 2026 Stephens annual investment conference: diversification push"
+      },
+      "extra_links": [
+        { "name": "Investing.com 한국어판", "url": "https://kr.investing.com/news/transcripts/article-93CH-2180271" }
+      ]
+    },
+    {
+      "id": "20261118-02",
+      "category": "파워트레인",
+      "company": "Schaeffler",
+      "product": "EMS·인젝터",
+      "event_type": "구조조정",
+      "importance": 1,
+      "importance_reason": "11/11 게시한 유럽 구조조정의 후속 노사 갈등으로 참고 정보",
+      "title": "Schaeffler, 임금 반납안 두고 노조와 갈등",
+      "one_line": "약 €100mil. 규모 2년 임금 반납으로 추가 1,000명 감축 회피 추진, IG Metall은 '미래 구상' 요구",
+      "content": "셰플러, 11월 초 발표한 유럽 구조조정과 연계한 직원 임금 반납('연대 기여금') 추진에 노조·직장평의회가 반발",
+      "background": "유럽 3,460명(독일 약 2,660명) 감축·거점 폐쇄 프로그램의 일환으로 경영진이 인건비 절감을 위한 임금 반납을 핵심 요소로 제시",
+      "points": [
+        "경영진 안: 2년간 자발적 임금 반납, CEO 기본급 10%·비협약직 5% 반납",
+        "규모 약 €100mil., 이를 통해 추가 1,000명 감축 회피 목표",
+        "협약 적용 직원은 직장평의회·IG Metall 동의 필요, 협상 개시 시점 미정",
+        "노조 측: 독일 거점에 대한 투자·제품 배정 등 구속력 있는 '미래 구상(Zukunftskonzept)' 요구, 임금 반납이 퇴직금 재원으로 쓰인다고 비판",
+        "폐쇄 대상: Dortmund·Morbach·Berlin·Schwalbach·Herstal(벨기에)"
+      ],
+      "implication": "노사 협상이 길어지면 독일 내연기관 파워트레인 거점 정리 일정이 늦어지거나 감축 규모가 바뀔 수 있음. 유럽 고객사의 공급 안정성 우려로 이어지는지 지켜볼 필요.",
+      "check_needed": "Handelsblatt 원문은 유료 기사로 본문 일부만 확인. 반납 비율(5%)·규모(€100mil.)·추가 1,000명 회피 수치는 Handelsblatt를 인용한 aktiencheck 기사 기준.",
+      "source": {
+        "name": "Handelsblatt",
+        "url": "https://www.handelsblatt.com/unternehmen/industrie/industrie-streit-ueber-gehaltsverzicht-beim-zulieferer-schaeffler/100268764.html",
+        "published": "2026-11-17",
+        "original_title": "Industrie: Streit über Gehaltsverzicht beim Zulieferer Schaeffler"
+      },
+      "extra_links": [
+        { "name": "aktiencheck.de", "url": "https://aktiencheck.de/artikel/schaeffler-aktie-vorstand-will-gehaltsverzicht-ig-metall-verlangt" },
+        { "name": "Personalwirtschaft (11/4, 연대 기여금 개요)", "url": "https://www.personalwirtschaft.de/news/verguetung/gehaltsverzicht-bei-schaeffler-solidaritaetsbeitrag-soll-stellenabbau-abmildern-210946" }
+      ]
+    }
+  ]
+}
