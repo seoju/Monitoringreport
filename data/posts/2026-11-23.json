@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T07:30:00+09:00",
+  "window": "2026-11-20 07:00 ~ 2026-11-23 07:00 (KST)",
+  "searched": "Tier 1 전체(10개사, 영·국문), Tier 2 전체(8개사, 월요일), 공통 키워드 5종(영·국문), Bosch·Denso·BorgWarner·Schaeffler 공식 뉴스룸, MarkLines·Automotive World·S&P AutoTechInsight 일자별 보조 확인",
+  "top3": ["20261123-01"],
+  "note": "주말 포함 72시간 동안 경쟁사의 관심 품목(인젝터·HPP·ECU·TCU·센서·ICCU·OBC·LDC·인버터) 신규 수주·신제품·투자·구조조정 발표는 확인되지 않아 1건만 게재. 제외: 현대모비스 유럽·북미 완성차 대상 약 1조 원 규모 제동(iMEB)·조향(EPS) 부품 수주 보도(글로벌이코노믹 11/23, 관심 품목 무관·회사 공식 발표 아닌 해외 매체 인용), Genesis G80·GV80 하이브리드(2.5 터보 병렬 하이브리드, 347hp) LA오토쇼 공개(11/19 미국 동부시간 공개로 기간 직전), 2028 Elantra Hybrid LA오토쇼 공개 예고(완성차 신차 단독), EU 집행위의 SVP의 Marelli 인수 승인(11/17, 기간 밖), FAST-BorgWarner 중국 2기 라인 가동(11/18 보도, 기간 밖), BorgWarner·Wolfspeed SiC 공급계약 및 고전압 인버터 수주(10월 말 발표, 기간 밖), Marelli PACE Award 수상(11/19, 홍보성·기존 제외 건), Sensata·BorgWarner·PHINIA 관련 주가·애널리스트 기사(제외 대상).",
+  "items": [
+    {
+      "id": "20261123-01",
+      "category": "전력변환",
+      "company": "Valeo",
+      "product": "전동 파워트레인·전력전자 개발 인프라",
+      "event_type": "M&A·투자",
+      "importance": 1,
+      "importance_reason": "전력전자 경쟁사의 개발 거점 확충이나 신제품·수주 등 직접 이벤트는 아닌 참고 정보",
+      "title": "Valeo, 프랑스 전동화 기술센터에 소재 연구소 추가",
+      "one_line": "개소 1년 미만 Valenton 파워 기술센터(VPTC)에 300㎡ 소재 연구소·시험설비 증설",
+      "content": "발레오, 파리 인근 Valenton의 전동 파워트레인·열관리 기술센터(VPTC)에 소재 연구소와 추가 시험설비를 증설한다고 발표",
+      "background": "전동 추진·전력전자·열관리 통합 개발 역량을 단일 거점에 집중하는 전략의 연장",
+      "points": [
+        "증설 내용: 300㎡ 규모 소재 연구소 및 추가 시험설비, 개소 1년이 채 안 된 시점의 확장",
+        { "text": "VPTC 현황: 추진·열관리 전문 인력 400명", "sub": ["극한기후 풍동(-40°C~+55°C, 최대 풍속 160km/h, 인공 일사)과 1.3MW 충전기 연계", "전동 추진·전력전자(Power electronics) 연구실, 인증 EMC 센터, 사이버보안 시험 구역, 전 냉매(R290 포함) 대응 히트펌프 시험대"] },
+        "신규 연구소는 발레오 글로벌 소재 연구소 9곳 중 하나(프랑스 내 3곳)",
+        "투자 금액은 미공개"
+      ],
+      "implication": "Valeo가 전력전자·EMC 시험을 포함한 전동화 통합 검증 인프라를 유럽 내에서 확충 중. 전력변환 품목의 유럽 고객 대응 시 경쟁사의 개발·인증 리드타임 단축 가능성 참고 필요.",
+      "check_needed": "투자 규모, 연구소 가동 시점, 전력전자 시험 설비의 구체적 증설 범위는 보도에 명시되지 않음.",
+      "source": {
+        "name": "Automotive World",
+        "url": "https://www.automotiveworld.com/news/valeo-adds-materials-lab-to-valenton-ev-technical-centre/",
+        "published": "2026-11-20",
+        "original_title": "Valeo adds materials lab to Valenton EV technical centre"
+      },
+      "extra_links": []
+    }
+  ]
+}
