@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-20T03:57:40+00:00",
+ "updated": "2026-11-22T21:57:38+00:00",
  "days": [
+  {
+   "date": "2026-11-23",
+   "count": 1,
+   "stars": {
+    "3": 0,
+    "2": 0,
+    "1": 1
+   },
+   "top3": [
+    "20261123-01"
+   ],
+   "note": "주말 포함 72시간 동안 경쟁사의 관심 품목(인젝터·HPP·ECU·TCU·센서·ICCU·OBC·LDC·인버터) 신규 수주·신제품·투자·구조조정 발표는 확인되지 않아 1건만 게재. 제외: 현대모비스 유럽·북미 완성차 대상 약 1조 원 규모 제동(iMEB)·조향(EPS) 부품 수주 보도(글로벌이코노믹 11/23, 관심 품목 무관·회사 공식 발표 아닌 해외 매체 인용), Genesis G80·GV80 하이브리드(2.5 터보 병렬 하이브리드, 347hp) LA오토쇼 공개(11/19 미국 동부시간 공개로 기간 직전), 2028 Elantra Hybrid LA오토쇼 공개 예고(완성차 신차 단독), EU 집행위의 SVP의 Marelli 인수 승인(11/17, 기간 밖), FAST-BorgWarner 중국 2기 라인 가동(11/18 보도, 기간 밖), BorgWarner·Wolfspeed SiC 공급계약 및 고전압 인버터 수주(10월 말 발표, 기간 밖), Marelli PACE Award 수상(11/19, 홍보성·기존 제외 건), Sensata·BorgWarner·PHINIA 관련 주가·애널리스트 기사(제외 대상).",
+   "pdf": "reports/2026-11-23.pdf"
+  },
   {
    "date": "2026-11-20",
    "count": 1,
@@ -116,6 +130,20 @@
   }
  ],
  "items": [
+  {
+   "id": "20261123-01",
+   "date": "2026-11-23",
+   "category": "전력변환",
+   "company": "Valeo",
+   "product": "전동 파워트레인·전력전자 개발 인프라",
+   "event_type": "M&A·투자",
+   "importance": 1,
+   "title": "Valeo, 프랑스 전동화 기술센터에 소재 연구소 추가",
+   "one_line": "개소 1년 미만 Valenton 파워 기술센터(VPTC)에 300㎡ 소재 연구소·시험설비 증설",
+   "source_name": "Automotive World",
+   "source_url": "https://www.automotiveworld.com/news/valeo-adds-materials-lab-to-valenton-ev-technical-centre/",
+   "published": "2026-11-20"
+  },
   {
    "id": "20261120-01",
    "date": "2026-11-20",
