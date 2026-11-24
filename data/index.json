@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-24T06:56:18+00:00",
+ "updated": "2026-11-24T21:56:30+00:00",
  "days": [
+  {
+   "date": "2026-11-25",
+   "count": 1,
+   "stars": {
+    "3": 0,
+    "2": 0,
+    "1": 1
+   },
+   "top3": [
+    "20261125-01"
+   ],
+   "note": "수집 기간 내 경쟁사의 관심 품목(인젝터·HPP·ECU·TCU·센서·ICCU·OBC·LDC·인버터) 신규 수주·신제품·투자 발표는 확인되지 않아 1건만 게재. 제외: 日 자동차 부품사 방산·드론 부품 전환 기사(Reuters 11/24·글로벌이코노믹 11/25, Aster·Kyowa 등 모니터링 대상 외 기업 중심·Denso·Astemo·Aisin 미언급), Infineon 상용차용 SiC 파워모듈(electrive 11/24, 모니터링 대상 외·11/18 제외 건과 동일 제품군), Schaeffler Gunzenhausen 공장 24시간 경고파업(11/23~24, 금속·전기 산업 단체 임금교섭 관련으로 회사 고유 이벤트 아님), Schaeffler 임금 반납안 논평(뉘른베르크 나흐리히텐 11/24, 11/18 게시 건과 동일 사안), 현대차 CEO LA오토쇼 인터뷰(CBT News 11/24, G80·GV80 하이브리드 등 기존 공개 내용), Exicom의 Tritium 매각·VW-Elli V2G 월박스(electrive 11/24, 충전 인프라로 관심 품목 무관), Bosch Reutlingen 1,100명 감원 재보도(최초 발표 '25.7월, 기간 밖), 현대차·기아 美 ICCU 결함 추가 소송 보도(더비즈, 원문 접속 불가로 발행일 확인 못 함 — 11/24 제외 건과 동일 추정).",
+   "pdf": "reports/2026-11-25.pdf"
+  },
   {
    "date": "2026-11-24",
    "count": 0,
@@ -142,6 +156,20 @@
   }
  ],
  "items": [
+  {
+   "id": "20261125-01",
+   "date": "2026-11-25",
+   "category": "전력변환",
+   "company": "Hyundai Mobis",
+   "product": "램프 사업(비핵심) 분할·매각",
+   "event_type": "구조조정",
+   "importance": 1,
+   "title": "현대모비스, 램프사업 분할 주총 통과…OPmobility 매각 속도",
+   "one_line": "임시주총서 램프사업 물적분할 승인, '27.4.1 자회사 설립 후 佛 OPmobility에 6,000억 원 매각",
+   "source_name": "Korea JoongAng Daily (연합뉴스)",
+   "source_url": "https://www.koreajoongangdaily.com/business/hyundai-mobis-shareholders-clear-lighting-unit-spinoff-before-446-million-french-sale-deal/12987988",
+   "published": "2026-11-24"
+  },
   {
    "id": "20261123-01",
    "date": "2026-11-23",
