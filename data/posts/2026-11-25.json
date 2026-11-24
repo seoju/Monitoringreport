@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T06:56:00+09:00",
+  "window": "2026-11-24 07:00 ~ 2026-11-25 07:00 (KST)",
+  "searched": "Tier 1 전체(10개사, 영·국문, Denso·Astemo 일문·Schaeffler·Bosch 독문 보조), Tier 2 전체(8개사, 수요일), 공통 키워드 5종(영·국문), Bosch·PHINIA 공식 뉴스룸, MarkLines(Schaeffler·Denso 태그)·electrive·Gasgoo·Just Auto·글로벌이코노믹 등 일자별 보조 검색",
+  "top3": ["20261125-01"],
+  "note": "수집 기간 내 경쟁사의 관심 품목(인젝터·HPP·ECU·TCU·센서·ICCU·OBC·LDC·인버터) 신규 수주·신제품·투자 발표는 확인되지 않아 1건만 게재. 제외: 日 자동차 부품사 방산·드론 부품 전환 기사(Reuters 11/24·글로벌이코노믹 11/25, Aster·Kyowa 등 모니터링 대상 외 기업 중심·Denso·Astemo·Aisin 미언급), Infineon 상용차용 SiC 파워모듈(electrive 11/24, 모니터링 대상 외·11/18 제외 건과 동일 제품군), Schaeffler Gunzenhausen 공장 24시간 경고파업(11/23~24, 금속·전기 산업 단체 임금교섭 관련으로 회사 고유 이벤트 아님), Schaeffler 임금 반납안 논평(뉘른베르크 나흐리히텐 11/24, 11/18 게시 건과 동일 사안), 현대차 CEO LA오토쇼 인터뷰(CBT News 11/24, G80·GV80 하이브리드 등 기존 공개 내용), Exicom의 Tritium 매각·VW-Elli V2G 월박스(electrive 11/24, 충전 인프라로 관심 품목 무관), Bosch Reutlingen 1,100명 감원 재보도(최초 발표 '25.7월, 기간 밖), 현대차·기아 美 ICCU 결함 추가 소송 보도(더비즈, 원문 접속 불가로 발행일 확인 못 함 — 11/24 제외 건과 동일 추정).",
+  "items": [
+    {
+      "id": "20261125-01",
+      "category": "전력변환",
+      "company": "Hyundai Mobis",
+      "product": "램프 사업(비핵심) 분할·매각",
+      "event_type": "구조조정",
+      "importance": 1,
+      "importance_reason": "관심 품목 외 사업 정리이나, 전동화 등 핵심 사업 집중을 명시한 Tier 1 경쟁사의 포트폴리오 재편 진행 사항",
+      "title": "현대모비스, 램프사업 분할 주총 통과…OPmobility 매각 속도",
+      "one_line": "임시주총서 램프사업 물적분할 승인, '27.4.1 자회사 설립 후 佛 OPmobility에 6,000억 원 매각",
+      "content": "현대모비스, 11/24 임시주주총회에서 램프(자동차 조명) 사업 분할계획서를 승인받아 프랑스 OPmobility로의 매각 절차 진행",
+      "background": "현대모비스는 사업 포트폴리오를 정리하고 전동화·자율주행·SDV 등 미래 모빌리티 기술에 집중하는 전략의 일환으로 매각 추진(9월 계약 체결)",
+      "points": [
+        "분할 방식: 램프 사업을 100% 자회사로 분할, '27년 4월 1일 설립 후 OPmobility에 매각 예정",
+        "매각가: 6,000억 원($446.4mil.), 램프 사업 지난해 매출 약 1조 원",
+        "승인 요건: 출석 의결권 2/3 이상 및 발행주식 총수 1/3 이상 찬성(특별결의)",
+        "주총 승인 후 11/24 오전 현대모비스 주가 10% 이상 상승(KED)",
+        "노르웨이 국부펀드(NBIM)의 주식매수청구 등이 매각 변수로 거론(KED)"
+      ],
+      "table": {
+        "caption": "램프사업 분할·매각 개요",
+        "headers": ["구분", "내용"],
+        "rows": [
+          ["대상 사업", "자동차 램프(조명)"],
+          ["매수자", "OPmobility(프랑스)"],
+          ["매각가", "6,000억 원($446.4mil.)"],
+          ["사업 규모", "지난해 매출 약 1조 원"],
+          ["자회사 설립일", "2027-04-01"]
+        ]
+      },
+      "implication": "현대모비스가 비핵심 사업을 정리하며 전동화 등 핵심 분야에 자원을 집중하는 방향을 재확인. 그룹 내 ICCU·HPCU 등 전력변환 품목에서의 경쟁 구도 변화 여부 지속 관찰 필요.",
+      "check_needed": "찬성률·참석률, 분할 신설법인명, 매각 종결 시점, NBIM 관련 주식매수청구 규모·매각 무산 조건은 확인한 기사에 명시되지 않음(KED 본문 미확인).",
+      "source": {
+        "name": "Korea JoongAng Daily (연합뉴스)",
+        "url": "https://www.koreajoongangdaily.com/business/hyundai-mobis-shareholders-clear-lighting-unit-spinoff-before-446-million-french-sale-deal/12987988",
+        "published": "2026-11-24",
+        "original_title": "Hyundai Mobis shareholders clear lighting unit spinoff before $446 million French sale deal"
+      },
+      "extra_links": [
+        { "name": "KED Global", "url": "https://www.kedglobal.com/corporate-restructuring/newsView/ked202611240003" },
+        { "name": "뉴스핌", "url": "https://www.newspim.com/news/view/20261124001049" }
+      ]
+    }
+  ]
+}
