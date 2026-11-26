@@ -1,6 +1,21 @@
 {
- "updated": "2026-11-26T04:58:42+00:00",
+ "updated": "2026-11-26T21:56:37+00:00",
  "days": [
+  {
+   "date": "2026-11-27",
+   "count": 2,
+   "stars": {
+    "3": 1,
+    "2": 0,
+    "1": 1
+   },
+   "top3": [
+    "20261127-01",
+    "20261127-02"
+   ],
+   "note": "수집 기간 내 경쟁사의 관심 품목(인젝터·HPP·ECU·TCU·센서·ICCU·OBC·LDC·인버터) 신규 수주·신제품·투자 발표는 확인되지 않아 2건 게재. 제외: 현대모비스 유럽·북미 약 1조 원 제동·조향부품 수주(11/25 발표로 기간 밖, 관심 품목 무관 — 11/26 제외 건과 동일), 현대모비스 주가 하락 기사(11/26, 주가 기사), 현대차그룹 부품사 라이쏠 매각 추진 단독 보도(헤럴드경제 11/26, 관심 품목 무관), 2026 Automotive News PACE Award(Schaeffler·Marelli·Flex 등, 11/18~19 발표로 기간 밖·수상 홍보성), Inovance·Innoscience GaN 2-in-1 OBC+DC-DC(2025.12 발표로 기간 밖), Allegro 48V·고전압 구동 솔루션 발표(Gasgoo 11/24, 기간 밖), Melexis LIN 모터 드라이버 출시(MarkLines 11/25, 기간 밖), Schaeffler 독일 사업장 경고파업 예고(노사 이슈, 관심 품목 무관), Bosch 성탄 상여금 기사(관심 품목 무관).",
+   "pdf": "reports/2026-11-27.pdf"
+  },
   {
    "date": "2026-11-26",
    "count": 1,
@@ -170,6 +185,34 @@
   }
  ],
  "items": [
+  {
+   "id": "20261127-01",
+   "date": "2026-11-27",
+   "category": "시장·기타",
+   "company": "Hyundai Mobis",
+   "product": "그룹 부품 계열사",
+   "event_type": "인사",
+   "importance": 3,
+   "title": "현대차그룹, 모비스·케피코 등 부품사 대표 교체",
+   "one_line": "모비스 새 대표에 백철승, 트랜시스 박찬영, 케피코 유지한…현대차·기아 대표는 유임",
+   "source_name": "서울파이낸스",
+   "source_url": "https://www.seoulfn.com/news/articleView.html?idxno=644008",
+   "published": "2026-11-26"
+  },
+  {
+   "id": "20261127-02",
+   "date": "2026-11-27",
+   "category": "파워트레인",
+   "company": "Schaeffler (Vitesco 포함)",
+   "product": "그룹 재무",
+   "event_type": "M&A·투자",
+   "importance": 1,
+   "title": "Schaeffler, 인도 법인 지분 6.5% 매각",
+   "one_line": "Schaeffler India 지분 6.5%를 기관에 매각, 순수익 약 €314mil.로 순부채 축소",
+   "source_name": "Schaeffler 보도자료 (EQS-News)",
+   "source_url": "https://www.finanzwire.com/press-release/schaeffler-ag-etr-de000sha-schaeffler-ag-successfully-places-65-stake-in-schaeffler-india-limited-8kJT2Tql8uw",
+   "published": "2026-11-26"
+  },
   {
    "id": "20261126-01",
    "date": "2026-11-26",
