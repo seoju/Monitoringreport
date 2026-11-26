@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T06:55:50+09:00",
+  "window": "2026-11-26 07:00 ~ 2026-11-27 07:00 (KST)",
+  "searched": "Tier 1 전체(10개사, 영·국문, Denso·Astemo 일문·Bosch·Schaeffler 독문 보조), Tier 2 전체(8개사, 금요일), Tier 3 전체(11개사, 금요일), 공통 키워드 5종(영·국문). electrive·Gasgoo·MarkLines(11/25분)·국내 매체 일자별 보조 검색 — 11/26 미국 추수감사절로 북미 기업 발표 공백",
+  "top3": ["20261127-01", "20261127-02"],
+  "note": "수집 기간 내 경쟁사의 관심 품목(인젝터·HPP·ECU·TCU·센서·ICCU·OBC·LDC·인버터) 신규 수주·신제품·투자 발표는 확인되지 않아 2건 게재. 제외: 현대모비스 유럽·북미 약 1조 원 제동·조향부품 수주(11/25 발표로 기간 밖, 관심 품목 무관 — 11/26 제외 건과 동일), 현대모비스 주가 하락 기사(11/26, 주가 기사), 현대차그룹 부품사 라이쏠 매각 추진 단독 보도(헤럴드경제 11/26, 관심 품목 무관), 2026 Automotive News PACE Award(Schaeffler·Marelli·Flex 등, 11/18~19 발표로 기간 밖·수상 홍보성), Inovance·Innoscience GaN 2-in-1 OBC+DC-DC(2025.12 발표로 기간 밖), Allegro 48V·고전압 구동 솔루션 발표(Gasgoo 11/24, 기간 밖), Melexis LIN 모터 드라이버 출시(MarkLines 11/25, 기간 밖), Schaeffler 독일 사업장 경고파업 예고(노사 이슈, 관심 품목 무관), Bosch 성탄 상여금 기사(관심 품목 무관).",
+  "items": [
+    {
+      "id": "20261127-01",
+      "category": "시장·기타",
+      "company": "Hyundai Mobis",
+      "product": "그룹 부품 계열사",
+      "event_type": "인사",
+      "importance": 3,
+      "importance_reason": "현대차그룹 핵심 부품사(현대모비스·현대트랜시스·현대케피코) 대표 동시 교체로 그룹 부품 전략·고객사 구매 방향에 직접 영향",
+      "title": "현대차그룹, 모비스·케피코 등 부품사 대표 교체",
+      "one_line": "모비스 새 대표에 백철승, 트랜시스 박찬영, 케피코 유지한…현대차·기아 대표는 유임",
+      "content": "현대차그룹이 2027년 대표이사·사장단 인사를 발표해 완성차 대표는 유임하고 현대모비스·현대트랜시스·현대케피코 등 부품 계열사 수장을 구매·생산·기술 전문가로 교체",
+      "background": "글로벌 경쟁 심화·통상환경 불확실성 속에서 부품 계열사의 수익성 개선과 전동화·SDV 등 미래차 전환을 가속하기 위한 인사로 설명 (서울파이낸스·비즈니스포스트)",
+      "points": [
+        { "text": "현대모비스: 백철승 현대트랜시스 대표이사 부사장 → 현대모비스 대표이사 사장 (이번 인사 유일한 사장 승진)", "sub": ["현대차 체코법인장, 구매 부문 주요 보직, 현대트랜시스 영업본부장·대표이사 역임", "이규석 현 대표는 고문으로 위촉", "수익성 개선·사업 포트폴리오 전환, 전동화·전장 경쟁력 강화 과제"] },
+        "현대트랜시스: 박찬영 현대차 구매본부장(부사장) → 대표이사 부사장 (전동화부품구매실장·전동화부품구매사업부장 역임)",
+        "현대케피코: 유지한 현대차 SDV플랫폼담당 부사장 → 대표이사 부사장, 오준동 현 대표는 현대차 국내생산담당 겸 CSO로 이동",
+        "현대차 호세 무뇨스·기아 송호성 대표 유임, 현대엔지니어링 대표도 교체(나태준) — 정기 임원인사는 12월 중순 예정",
+        "현대모비스, 11/26 이사회에서 성낙섭 FTCI담당을 대표이사로 선임(임기 '27.1.14까지, 정의선 회장과 각자대표)"
+      ],
+      "table": {
+        "caption": "주요 부품 계열사 대표 변경",
+        "headers": ["회사", "신임 대표", "이전 직책", "전임 대표"],
+        "rows": [
+          ["현대모비스", "백철승 사장", "현대트랜시스 대표이사 부사장", "이규석 (고문)"],
+          ["현대트랜시스", "박찬영 부사장", "현대차 구매본부장", "백철승 (모비스 이동)"],
+          ["현대케피코", "유지한 부사장", "현대차 SDV플랫폼담당", "오준동 (현대차 국내생산담당 겸 CSO)"]
+        ]
+      },
+      "implication": "현대케피코 신임 대표가 SDV플랫폼 출신이고 모비스·트랜시스 대표에 구매 전문가가 기용돼, 그룹 내 제어기·전력변환 부품의 SDV 연계 및 원가·수익성 중심 구매 기조 강화 가능성. 모비스의 전동화(ICCU 등) 포트폴리오 전환 방향을 지속 모니터링 필요.",
+      "check_needed": "성낙섭 대표 선임 건은 파이낸스투데이 공시 기사 기준이며 임기('27.1.14) 설정 사유는 기사에 없음 — 현대모비스 공시 원문(11/26 대표이사 변경) 확인 필요. 나태준 현대엔지니어링 대표 직급은 매체별로 사장/부사장 상이.",
+      "source": {
+        "name": "서울파이낸스",
+        "url": "https://www.seoulfn.com/news/articleView.html?idxno=644008",
+        "published": "2026-11-26",
+        "original_title": "현대차그룹, 핵심 부품사 수장 '물갈이'···미래차 전환 속도"
+      },
+      "extra_links": [
+        { "name": "비즈니스포스트", "url": "https://www.businesspost.co.kr/BP?command=article_view&num=452977" },
+        { "name": "파이낸스투데이 (모비스 대표이사 변경 공시)", "url": "https://www.fntoday.co.kr/news/articleView.html?idxno=400755" }
+      ]
+    },
+    {
+      "id": "20261127-02",
+      "category": "파워트레인",
+      "company": "Schaeffler (Vitesco 포함)",
+      "product": "그룹 재무",
+      "event_type": "M&A·투자",
+      "importance": 1,
+      "importance_reason": "구조조정 중인 Schaeffler의 재무구조 개선 조치로 참고 정보",
+      "title": "Schaeffler, 인도 법인 지분 6.5% 매각",
+      "one_line": "Schaeffler India 지분 6.5%를 기관에 매각, 순수익 약 €314mil.로 순부채 축소",
+      "content": "Schaeffler AG가 상장 자회사 Schaeffler India 지분 6.5%를 기관투자자에 매각해 약 €314mil.의 순수익을 확보하고 이를 부채 감축에 활용한다고 발표",
+      "background": "어려운 시장 여건 속 재무구조 강화 필요, 10/26 프로모터 그룹의 지분 일부 매각 검토 공지에 이은 조치",
+      "points": [
+        "매각 규모: 10,159,738주(발행주식의 6.5%), 주당 INR 3,493(약 €34.63)",
+        "순수익 약 €314mil.(세금·거래비용 차감 후), 순부채 축소에 사용",
+        "'26.9월말 기준 pro forma 레버리지 0.13배 개선된 2.13배, 자기자본비율 1.2%p 상승한 15.8%",
+        "프로모터 그룹 지분 74.13% → 약 67.63%, 3분의 2 이상 보유 최대주주 유지 방침 — 인도는 중요 시장으로 그룹 성장 역할 지속"
+      ],
+      "implication": "유럽 인력 감축에 이어 자산 유동화로 재무 부담을 줄이는 국면으로, 단기적으로 파워트레인 부문 공격적 투자·가격 경쟁보다 수익성 관리 기조가 이어질 가능성.",
+      "check_needed": "",
+      "source": {
+        "name": "Schaeffler 보도자료 (EQS-News)",
+        "url": "https://www.finanzwire.com/press-release/schaeffler-ag-etr-de000sha-schaeffler-ag-successfully-places-65-stake-in-schaeffler-india-limited-8kJT2Tql8uw",
+        "published": "2026-11-26",
+        "original_title": "Schaeffler AG successfully places 6.5% stake in Schaeffler India Limited"
+      },
+      "extra_links": [
+        { "name": "onvista (dpa-AFX)", "url": "https://onvista.de/news/2026/11-26-autozulieferer-schaeffler-macht-anteil-an-indien-tochter-zu-geld-0-20-26580854" }
+      ]
+    }
+  ]
+}
